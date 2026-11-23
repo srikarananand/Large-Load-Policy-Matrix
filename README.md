@@ -2,6 +2,8 @@
 
 How do public energy plans treat data centers and other large new loads? This project reads state energy plans and utility resource plans, records what each says across 8 attributes, and refuses to count any claim whose quote is not word for word on the cited page.
 
+**Where this started:** the state energy-plan RAG assistant (RAG Energy Plan Analyzer) from my Research Analyst internship at the Hamm Institute for American Energy at Oklahoma State University (2025). This project extends that work from answering questions to comparing policies, with an evidence guard on every claim.
+
 **Report:** `docs/index.html` (enable GitHub Pages on `/docs`).
 
 ## What the published run found

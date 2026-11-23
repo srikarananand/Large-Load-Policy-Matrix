@@ -1,0 +1,87 @@
+### https://www.oregon.gov/energy/data-and-reports/Documents/Oregon-Energy-Strategy.pdf
+meta: n_pages=148 pages_with_text=148 anchor_pages=20 pages_sent=67,60,112,119,89,116
+@@ page 60
+ion is
+needed. This can exacerbate energy burden, hinder one of the fastest ways to relieve load growth, and
+create uncertainty for businesses and workers engaged in providing energy efficiency services. It also
+reinforces the importance of ratepayer-funded energy efficiency programs across Oregon’s utility service
+areas.
+1b. Evaluate, promote, and allocate funding to improve energy efficiency in large
+commercial and industrial sectors.
+Oregon’s large commercial and industrial entities are a crucial contributor to jobs and activity in the
+state’s economy. These entities account for 27 percent of total energy consumed in Oregon, about 34
+percent of greenhouse gas emissions, and almost 29 percent of energy expenditures in our state.
+25 26
+Energy efficiency can reduce energy waste and help businesses reduce their energy costs, improving the
+competitiveness of Oregon’s industries while advancing our climate objectives. Th
+@@ page 67
+OREGON ENERGY STRATEGY
+Oregon Department of Energy Page 61
+November 2025
+2b. Enable consumers to support grid needs by shifting the timing of electricity
+consumption for distributed flexible loads like EVs or water heaters and larger
+commercial and industrial loads.
+Oregon’s electric power systems face pressure from rapidly rising loads, extreme weather, and long lead
+times to construct utility-scale resources. New loads driven primarily by data centers and electrification
+must be integrated with an increasing supply of renewable energy resources with variable power
+outputs. Demand response (DR) programs allow customers to play a role in balancing grid operations by
+encouraging them to shift their flexible electricity loads away from periods of peak demand. Many
+households and businesses have flexibility for when they operate electric vehicle chargers, water
+heaters, laundry and other flexible
+@@ window
+n the grid. In
+buildings, electric water heaters, space heating, and cooling
+can all be managed flexibly to provide comfort while
+supporting the grid. Commercial and industrial electricity
+loads can also shift some of their operating hours and
+activate backup energy systems when necessary. Fin
+@@ page 89
+loads to inform greenhouse gas emissions analyses, and evaluate
+whether policy changes are needed to bring emissions in line with state policies. This
+would require an action from the Environmental Quality Commission.
+Pathways: 2 (Clean Electricity); 4 (Low-Carbon Fuels)
+Policies: 2a (Utility-scale and distributed energy resources); 4b (Low-carbon fuels adoption)
+Equity and Justice Approaches: 1 (decision-making)
+Although new tech loads, such as data centers, are expected to be the biggest near-term driver of
+electricity demand growth, relatively little information is available for these loads — or what resources
+will serve them. Some will be served by investor-owned utilities with clean energy requirements
+pursuant to HB 2021 (2021), but others — potentially a majority — will not. Most of Oregon’s consumer-
+owned utilities receive all or nearly all of their electricity supply from the Bonneville Power
+Administration. Yet federal law restricts BPA’s ability to supply new large loads at its lowest rates. Any
+service to those loads by BPA would be at a much higher rate that covers the full cost of that service or
+would be served by an alternative power supply that the COUs procure. A
+@@ page 112
+essential service that supplies energy for nearly
+every Oregon home and business, for many industries, and increasingly for
+transportation. The hydroelectric system in the Northwest has provided Oregon and the region
+important benefits, including non-emitting electricity and grid flexibility benefits. The model indicated
+that hydropower will continue to remain an important electricity resource. At the same time, rapid load
+growth, primarily from data centers, is increasing the region’s need for new generating resources.
+Currently, expanding the electricity system is critical to maintain reliability while accommodating rapid
+load growth. Access to affordable and reliable electricity supply is necessary for Oregonians today and
+for the economic development that can come from new businesses and industries entering the state.
+Solutions to address this challenge must include all available options, inclu
+@@ page 116
+hile continuing to facilitate public participation and protection of resources.
+Investment: Many large-scale transmission projects or upgrade projects are needed to maintain reliable
+service but are too expensive for a single utility to finance. Some projects, such as the Boardman-to-
+Hemingway line, have relied on utility-to-utility co-investment, though even then capital is scarce.
+Investment support from non-utility entities, particularly new large loads with significant interest in
+transmission upgrades, could be key to stretching limited utility and other capital. By recognizing and
+xlv 
+The state legislature considered establishing a state transmission authority in the 2025 legislative session but did not do so.
+HB 3628 (2025). As noted in the final paragraph here, any new state entity should be carefully designed, have clear authority
+to undertake the necessary work while mitigating the risk
+@@ page 119
+jectives.
+Policymakers should be prepared to implement recommendations from this study once undertaken.
+Electricity Action 8. Investigate opportunities to modify utility business models and
+ratemaking practices to enhance marketplace competition and thereby lower costs
+in utility planning and resource procurements.
+Pathways: 1 (Energy efficiency); 2 (Clean Electricity); 3 (Electrification); 5 (Resilience)
+Policies: 1a (Buildings efficiency); 1b (Large commercial and industrial efficiency); 2a (Utility-scale
+and distributed energy resources); 2b (Load flexibility); 3b (Distribution system readiness for EVs);
+5b (Resilience measures)
+Equity and Justice Approaches: 2 (Infrastructure development); 4 (Workforce)
+Traditional ratemaking rewards utility investors for making capital investments and does not reward non-
+capital spending like procuring power via a contract or pursuing non-wires solutions such as energy

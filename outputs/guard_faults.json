@@ -1,0 +1,34 @@
+{
+ "fabricated": {
+  "n": 228,
+  "caught_pct": 100.0
+ },
+ "wrong_page": {
+  "n": 228,
+  "caught_pct": 100.0
+ },
+ "paraphrased": {
+  "n": 228,
+  "caught_pct": 100.0
+ },
+ "off_topic": {
+  "n": 228,
+  "caught_pct": 100.0
+ },
+ "status_inflated": {
+  "n": 116,
+  "caught_pct": 0.0
+ },
+ "control_noise": {
+  "n": 228,
+  "pass_rate_pct": 100.0
+ },
+ "control_exact": {
+  "n": 228,
+  "pass_rate_pct": 100.0
+ },
+ "altered_number": {
+  "n": 115,
+  "caught_pct": 100.0
+ }
+}

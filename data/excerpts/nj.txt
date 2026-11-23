@@ -1,0 +1,80 @@
+### https://nj.gov/emp/pdf/2024NJEMP.pdf
+meta: n_pages=89 pages_with_text=89 anchor_pages=11 pages_sent=7,20,87,9,72,16
+@@ page 7
+nd 2023, the average peak load in the system was 152 GW, representing an
+overall negative growth rate. During this period of time, several uneconomic power plants in New Jersey and
+PJM retired due to decreasing demand. In contrast, the most recent PJM load forecast estimates 32 GW of
+additional peak demand by 2030 and 58 GW by 2035. According to PJM’s Independent Market Monitor, 30 of
+the 32 GW of projected load growth by 2030 is associated with large load data center construction in the PJM
+region accounting for 94% of total projected demand growth. Due to projected demand far outstripping the
+@@ page 9
+Executive Summary
+2024 New Jersey Energy Master Plan 9
+Figure 1. PJM Historical Base Residual Auction Clearing Prices (RTO-Wide)
+Whether capacity market prices stabilize, increase, or decrease, will be influenced by several concurrent policy
+initiatives at PJM that, while outside the scope of the 2024 EMP modeling, are nonetheless crucial for New Jersey.
+New load from data centers will enter the PJM system rapidly, and PJM can create new mechanisms to help
+accelerate the deployment of new resources. However, to the extent that new load enters the system before
+matching new generation, PJM must also ensure the new load enters the system flexibly to protect ratepayer
+costs and grid reliability. New Jersey and all stakeholders in PJM will need to work collaboratively to meet this
+challenge. The ongoing Large Load Critical Issue Fast Path charge at PJM is the most direct process addressing
+the issue, but load forecasting, interconnection processes, and market structure must also broadly be
+considered. PJM should also provide states with a more direct say in developing resource-adequacy solutions
+by reforming its governance structure and filing rights at the Federal Energy Regulatory Co
+@@ page 16
+tions contained in the 2024 EMP reflect the State’s commitment to developing a flexible and
+adaptable framework for achieving the goal of a clean, affordable, and reliable energy system that meets the
+state’s ambitious climate commitments. As New Jersey, and other states, have experienced in 2024 and 2025,
+the energy system is evolving rapidly as shifting federal priorities change the economics of different energy
+supply options, and the rise of large load data centers pushes the PJM region into a new era of rapidly rising
+energy demand following a 20-year period of relatively flat load.
+No Regrets Strategies
+New Jersey has multiple viable pathways to achieve 100% clean electricity sales and 80% GHG reductions by
+2050. The EMP identifies 'No Regrets' strategies with broad, near- and long-term benefits that do not limit future
+decision-making flexibility and provide meaningful benefits to the state regardless 
+@@ page 20
+d managing the electric distribution
+system. It combines traditional infrastructure—like poles, wires, and substations—with advanced technologies,
+digital tools, and an updated regulatory framework to make New Jersey’s grid smarter, more resilient, more
+reliable, and more interactive. A modernized grid will be essential to address reliability and affordability
+challenges precipitated by rapid load growth driven largely by the proliferation of AI data centers and beneficial
+electrification.
+To support this transformation, the New Jersey Board of Public Utilities (BPU) released a Grid Modernization
+Study in 2022, identifying key policy recommendations to reduce barriers and improve the interconnection of
+clean energy technologies. Since the study’s release, the BPU has convened multiple stakeholder meetings to
+explore these challenges and has begun implementing regulatory reforms that enable the grid
+@@ page 72
+gy. In a sensitivity in which New Jersey can access out-of-state wind with new or upgraded
+transmission, up to 8 GW of out-of-state wind can help replace 2 GW of new nuclear and 2 GW solar. Details of
+these sensitivities can be found in the IEP Appendix.
+Additional Sources of Uncertainty
+Key sources of uncertainty that would impact the supply-side findings include but are not limited to those
+presented in Table 6. In particular, items related to data centers, PJM, and federal funding have changed
+substantially since the 2024 EMP modeling as completed and is discussed in more detail in the “Changing
+Energy Landscape” section of the Executive Summary.
+Table 6: Key Sources of Uncertainty for the Electric Sector
+Source of
+Uncertainty
+Description
+Data center
+load forecast
+While this study relied on the best available data with respect to projected data center
+growth, data center industry is a rapidly growing and evolving space, and if the timing
+and/or magnitude of data center load changes, so will the resource investments needed to
+meet the demand.
+Federal and
+regional
+policy
+All policies outside of New Jersey were modeled as they were “on the books” as of March
+2024, including all fed
+@@ page 87
+goals
+through 2035. As discussed in the Executive Summary, the overall energy landscape is undergoing a massive
+shift not seen since New Jersey and the region hit peak electric load and peak emissions in the mid 2000’s. It is
+appropriate to view the 2024 EMP as a “bookend” to the era of flat-or-declining electric load, broad electric
+generation retirement, and relatively stable energy pricing. The cost and reliability implications of significant
+large load additions is new to the State and to the region. Similarly, the rapidly changing federal landscape over
+the past several years has materially changed project economics of various decarbonization technologies. While
+the full breadth and impact of these rapid changes is not yet fully understood, it does underscore the core
+guiding principle of the 2024 EMP—flexibility and adaptability.
+The primary takeaway of the 2024 EMP is the identification of 

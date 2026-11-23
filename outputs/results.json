@@ -1,0 +1,1370 @@
+{
+ "generated_at": "2026-11-23T01:22:17+00:00",
+ "extractor": "Claude, in-session, from hash-verified excerpts (not the Groq pipeline)",
+ "documents": [
+  {
+   "id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "kind": "state_plan",
+   "published": "2026-10-01",
+   "title": "2026 Virginia Energy Plan",
+   "url": "https://energy.virginia.gov/public/documents/Virginia%20Energy%20Plan/2026%20Virginia%20Energy%20Plan%20-For%20Publishing.pdf"
+  },
+  {
+   "id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "kind": "state_plan",
+   "published": "2025-11-24",
+   "title": "2024 New Jersey Energy Master Plan",
+   "url": "https://nj.gov/emp/pdf/2024NJEMP.pdf"
+  },
+  {
+   "id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "kind": "state_plan",
+   "published": "2025-01-17",
+   "title": "Maine Energy Plan (January 2025)",
+   "url": "https://lldc.mainelegislature.org/Open/Rpts/hd9502_u53m273_2025.pdf"
+  },
+  {
+   "id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "kind": "state_plan",
+   "published": "2025-11-01",
+   "title": "Oregon Energy Strategy",
+   "url": "https://www.oregon.gov/energy/data-and-reports/Documents/Oregon-Energy-Strategy.pdf"
+  },
+  {
+   "id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "kind": "state_plan",
+   "published": "2024-11-05",
+   "title": "Utah Energy and Innovation Plan (Summary)",
+   "url": "https://energy.utah.gov/wp-content/uploads/UTO-0001-Summary-Plan-v2.pdf"
+  },
+  {
+   "id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "kind": "utility_irp",
+   "published": "2025-03-31",
+   "title": "PacifiCorp 2025 Integrated Resource Plan, Vol. I",
+   "url": "https://www.pacificpower.net/content/dam/pcorp/documents/en/pacificorp/energy/integrated-resource-plan/2025-irp/2025_IRP_Vol_1.pdf"
+  },
+  {
+   "id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "kind": "utility_irp",
+   "published": "2026-10-15",
+   "title": "Dominion Energy Virginia 2026 IRP Update",
+   "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103"
+  },
+  {
+   "id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "kind": "utility_irp",
+   "published": "2025-10-15",
+   "title": "Dominion Energy Virginia 2025 Update to the 2024 IRP",
+   "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2025-integrated-resource-plan-update.pdf?rev=c656e4bd80184dbc80d4531cb6e9e975"
+  }
+ ],
+ "all_documents": [
+  {
+   "id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "kind": "state_plan",
+   "published": "2025-12-16",
+   "title": "2025 New York State Energy Plan, Vol. I: Summary for Policymakers",
+   "url": "https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Summary-for-Policymakers.pdf"
+  },
+  {
+   "id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "kind": "state_plan",
+   "published": "2025-12-16",
+   "title": "2025 New York State Energy Plan, Vol. II: Electricity",
+   "url": "https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Electricity.pdf"
+  },
+  {
+   "id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "kind": "state_plan",
+   "published": "2025-12-16",
+   "title": "2025 New York State Energy Plan, Vol. II: Pathways Analysis",
+   "url": "https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Pathways-Analysis.pdf"
+  },
+  {
+   "id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "kind": "state_plan",
+   "published": "2026-10-01",
+   "title": "2026 Virginia Energy Plan",
+   "url": "https://energy.virginia.gov/public/documents/Virginia%20Energy%20Plan/2026%20Virginia%20Energy%20Plan%20-For%20Publishing.pdf"
+  },
+  {
+   "id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "kind": "state_plan",
+   "published": "2025-11-24",
+   "title": "2024 New Jersey Energy Master Plan",
+   "url": "https://nj.gov/emp/pdf/2024NJEMP.pdf"
+  },
+  {
+   "id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "kind": "state_plan",
+   "published": "2025-01-17",
+   "title": "Maine Energy Plan (January 2025)",
+   "url": "https://lldc.mainelegislature.org/Open/Rpts/hd9502_u53m273_2025.pdf"
+  },
+  {
+   "id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "kind": "state_plan",
+   "published": "2025-11-01",
+   "title": "Oregon Energy Strategy",
+   "url": "https://www.oregon.gov/energy/data-and-reports/Documents/Oregon-Energy-Strategy.pdf"
+  },
+  {
+   "id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "kind": "state_plan",
+   "published": "2024-11-05",
+   "title": "Utah Energy and Innovation Plan (Summary)",
+   "url": "https://energy.utah.gov/wp-content/uploads/UTO-0001-Summary-Plan-v2.pdf"
+  },
+  {
+   "id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "kind": "utility_irp",
+   "published": "2025-03-31",
+   "title": "PacifiCorp 2025 Integrated Resource Plan, Vol. I",
+   "url": "https://www.pacificpower.net/content/dam/pcorp/documents/en/pacificorp/energy/integrated-resource-plan/2025-irp/2025_IRP_Vol_1.pdf"
+  },
+  {
+   "id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "kind": "utility_irp",
+   "published": "2026-10-15",
+   "title": "Dominion Energy Virginia 2026 IRP Update",
+   "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103"
+  },
+  {
+   "id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "kind": "utility_irp",
+   "published": "2025-10-15",
+   "title": "Dominion Energy Virginia 2025 Update to the 2024 IRP",
+   "url": "https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2025-integrated-resource-plan-update.pdf?rev=c656e4bd80184dbc80d4531cb6e9e975"
+  }
+ ],
+ "document_status": [
+  {
+   "id": "ny-2025-sep-summary",
+   "ok": false,
+   "error": "Browser pane refused energyplan.ny.gov during the build; not retried by other means"
+  },
+  {
+   "id": "ny-2025-sep-electricity",
+   "ok": false,
+   "error": "Browser pane refused energyplan.ny.gov during the build; not retried by other means"
+  },
+  {
+   "id": "ny-2025-sep-pathways",
+   "ok": false,
+   "error": "Browser pane refused energyplan.ny.gov during the build; not retried by other means"
+  },
+  {
+   "id": "va-2026-energy-plan",
+   "ok": true,
+   "pages": 155,
+   "pages_sent": [
+    42,
+    86,
+    93,
+    96,
+    114,
+    118
+   ],
+   "anchor_pages": 55
+  },
+  {
+   "id": "nj-2024-emp",
+   "ok": true,
+   "pages": 89,
+   "pages_sent": [
+    7,
+    9,
+    16,
+    20,
+    72,
+    87
+   ],
+   "anchor_pages": 11
+  },
+  {
+   "id": "me-2025-energy-plan",
+   "ok": true,
+   "pages": 69,
+   "pages_sent": [
+    52
+   ],
+   "anchor_pages": 1
+  },
+  {
+   "id": "or-2025-energy-strategy",
+   "ok": true,
+   "pages": 148,
+   "pages_sent": [
+    60,
+    67,
+    89,
+    112,
+    116,
+    119
+   ],
+   "anchor_pages": 20
+  },
+  {
+   "id": "ut-energy-innovation-plan-summary",
+   "ok": true,
+   "pages": 2,
+   "pages_sent": [],
+   "anchor_pages": 0
+  },
+  {
+   "id": "pacificorp-2025-irp-vol1",
+   "ok": true,
+   "pages": 334,
+   "pages_sent": [
+    22,
+    25,
+    48,
+    145,
+    247
+   ],
+   "anchor_pages": 9
+  },
+  {
+   "id": "dominion-2026-irp-update",
+   "ok": true,
+   "pages": 400,
+   "pages_sent": [
+    13,
+    41,
+    42,
+    233,
+    234,
+    235
+   ],
+   "anchor_pages": 68
+  },
+  {
+   "id": "dominion-2025-irp-update",
+   "ok": true,
+   "pages": 255,
+   "pages_sent": [
+    16,
+    24,
+    26,
+    27,
+    51,
+    169
+   ],
+   "anchor_pages": 18
+  }
+ ],
+ "excerpt_sha256": {
+  "va-2026-energy-plan": "cd5024ad9680eb62e1db6e613acaf42e9daec4026d491a9349c24ef72b6f2453",
+  "nj-2024-emp": "6f94446f3335933a55b0f19b29eed8f854c4f7e741c57708d8808930c9ca0ce5",
+  "me-2025-energy-plan": "72b3bf794bb96e8ba7fcb8abaa0750cd2b9a1a32e024731c13b9eeb81f18cc81",
+  "or-2025-energy-strategy": "65124ab04fe032b9f36e5b5762a036e8dcbe66e5720dc3d4dd5899f9f309b1e3",
+  "ut-energy-innovation-plan-summary": "658bb03bb1fdfc655e77de6df4a0966424787fe26645ddaddacef3d3723223a2",
+  "pacificorp-2025-irp-vol1": "428a45342bd1108c7cbe194d9df92088bd04a4d571f1bbfceb94d54d6b4c3977",
+  "dominion-2026-irp-update": "f08e8a624f1417b1382f5f565d5e2c8de00650972986a3117ded3622238c77ef",
+  "dominion-2025-irp-update": "720b182039dd0b0b00dad54cefe1b66c882d11e80df198256c89c98572949166"
+ },
+ "cells": [
+  {
+   "attribute": "demand_quantified",
+   "status": "explicit_provision",
+   "page": 114,
+   "quote": "VEP modeling projects that data centers could account for more than 90% of the Commonwealth's electricity-demand growth over the next two decades.",
+   "values": [
+    "90%"
+   ],
+   "note": "",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "explicit_provision",
+   "page": 114,
+   "quote": "Continuing to implement robust protections and cost allocation practices will be essential to protect residential, small businesses, and other ratepayers from the infrastructure costs caused by data centers.",
+   "values": [],
+   "note": "States a principle",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "explicit_provision",
+   "page": 42,
+   "quote": "The SCC has created a separate large load rate class for Dominion Energy Virginia and related service terms for qualifying large load customers",
+   "values": [],
+   "note": "Effective 2027 per the plan",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "explicit_provision",
+   "page": 42,
+   "quote": "qualifying large load customers, including a 14-year contract term, minimum demand charges, collateral requirements, and exit-fee provisions, effective January 1, 2027.",
+   "values": [
+    "14"
+   ],
+   "note": "",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "planned_or_recommended",
+   "page": 42,
+   "quote": "the SCC directed revisions to Dominion's proposed large load connection queue",
+   "values": [],
+   "note": "Ongoing proceeding",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "mentioned_only",
+   "page": 96,
+   "quote": "The Distributed Flexibility Scenario assumes all data centers provide the equivalent of a 10% reduction in peak demand.",
+   "values": [
+    "10%"
+   ],
+   "note": "Modeled scenario, not an adopted rule",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "planned_or_recommended",
+   "page": 118,
+   "quote": "this could include promoting large load offtake models, large multi-unit orderbooks, ring-fenced subsidiary investment",
+   "values": [],
+   "note": "Nuclear financing structures",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "va-2026-energy-plan",
+   "jurisdiction": "Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "explicit_provision",
+   "page": 7,
+   "quote": "30 of the 32 GW of projected load growth by 2030 is associated with large load data center construction in the PJM region",
+   "values": [
+    "30 GW",
+    "32 GW",
+    "2030"
+   ],
+   "note": "PJM forecast cited by the plan",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "planned_or_recommended",
+   "page": 9,
+   "quote": "New load from data centers will enter the PJM system rapidly, and PJM can create new mechanisms to help accelerate the deployment of new resources. However, to the extent that new load enters the system before matching new generation, PJM must also ensure the new load enters the system flexibly to protect ratepayer costs and grid reliability.",
+   "values": [],
+   "note": "Expectation placed on PJM, not a state rule",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "mentioned_only",
+   "page": 9,
+   "quote": "The ongoing Large Load Critical Issue Fast Path charge at PJM is the most direct process addressing the issue, but load forecasting, interconnection processes, and market structure must also broadly be considered.",
+   "values": [],
+   "note": "Points to a PJM process",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "planned_or_recommended",
+   "page": 9,
+   "quote": "New load from data centers will enter the PJM system rapidly, and PJM can create new mechanisms to help accelerate the deployment of new resources. However, to the extent that new load enters the system before matching new generation, PJM must also ensure the new load enters the system flexibly to protect ratepayer costs and grid reliability.",
+   "values": [],
+   "note": "Same sentence as cost_allocation; calls for flexible entry of new load",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "nj-2024-emp",
+   "jurisdiction": "New Jersey",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Only one page mentions an anchor term (AI as a grid tool); no large-load provision retrieved",
+   "doc_id": "me-2025-energy-plan",
+   "jurisdiction": "Maine",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "mentioned_only",
+   "page": 89,
+   "quote": "Although new tech loads, such as data centers, are expected to be the biggest near-term driver of electricity demand growth, relatively little information is available for these loads",
+   "values": [],
+   "note": "No figure given",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "mentioned_only",
+   "page": 89,
+   "quote": "Yet federal law restricts BPA's ability to supply new large loads at its lowest rates. Any service to those loads by BPA would be at a much higher rate that covers the full cost of that service or would be served by an alternative power supply that the COUs procure.",
+   "values": [],
+   "note": "Describes federal/BPA treatment",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "mentioned_only",
+   "page": 116,
+   "quote": "Investment support from non-utility entities, particularly new large loads with significant interest in transmission upgrades, could be key to stretching limited utility and other capital.",
+   "values": [],
+   "note": "Suggests large loads could fund transmission",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "mentioned_only",
+   "page": 67,
+   "quote": "New loads driven primarily by data centers and electrification must be integrated with an increasing supply of renewable energy resources with variable power outputs. Demand response (DR) programs allow customers to play a role in balancing grid operations",
+   "values": [],
+   "note": "General DR text beside data-center text",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "or-2025-energy-strategy",
+   "jurisdiction": "Oregon",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Two-page summary; no anchor term on any page",
+   "doc_id": "ut-energy-innovation-plan-summary",
+   "jurisdiction": "Utah",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "mentioned_only",
+   "page": 22,
+   "quote": "a sensitivity analysis evaluates the impacts of significant new data center loads coming online in the 2027-2033 timeframe",
+   "values": [
+    "2027-2033"
+   ],
+   "note": "Sensitivity analysis; no MW figure in the retrieved text",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Relevant sentence was cut off in the excerpt; not scored",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "explicit_provision",
+   "page": 145,
+   "quote": "PacifiCorp has had interruptible contracts with large load customers for many years. These contracts are a key aspect of the retail service provided to the associated customers",
+   "values": [],
+   "note": "Existing interruptible contracts",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "mentioned_only",
+   "page": 247,
+   "quote": "driven by lower projected demand from new large customers who are expected to bring their own resources, thus lowering the commercial forecast.",
+   "values": [],
+   "note": "Planning assumption in the load forecast",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "pacificorp-2025-irp-vol1",
+   "jurisdiction": "PacifiCorp",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "explicit_provision",
+   "page": 233,
+   "quote": "The Company has seen unprecedent levels of growth in both the size and number of requests for delivery points in the last several years, including the significant increase in volume and increased size from large-\nload customers. As of February 2026, approximately 25,000 megawatts of large-load delivery point requests",
+   "values": [
+    "25,000"
+   ],
+   "note": "Requests received as of Feb 2026",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "explicit_provision",
+   "page": 13,
+   "quote": "To ensure data centers and other high load customers continue to pay their fair share and to mitigate against stranded costs, the Company proposed, and the SCC approved, a robust package of cost allocation, rate design, and Terms and Conditions changes",
+   "values": [],
+   "note": "SCC-approved package per the utility",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "explicit_provision",
+   "page": 13,
+   "quote": "To ensure data centers and other high load customers continue to pay their fair share and to mitigate against stranded costs, the Company proposed, and the SCC approved, a robust package of cost allocation, rate design, and Terms and Conditions changes in the Company's biennial review proceeding, Case No. PUR-2025-00058. Notably, the Company's proposals included the creation of a new customer class for its most energy-intensive customers.",
+   "values": [],
+   "note": "New customer class (GS-5)",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "explicit_provision",
+   "page": 235,
+   "quote": "Execution of this agreement protects the Company, as discussed below, allows the distribution team to add the data center project to our queue, and begins the engineering study and design processes that are prerequisites to connect to the grid. At signing, a $250,000 deposit is required",
+   "values": [
+    "$250,000"
+   ],
+   "note": "Deposit at ELOA signing",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "explicit_provision",
+   "page": 234,
+   "quote": "The connection process begins when a data center submits a request for service to Dominion Energy's distribution team. The request must include a site plan or building layout, requested energization date, the capacity being requested including a ramp schedule, and meter voltage",
+   "values": [],
+   "note": "Request, ELOA, queue",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "planned_or_recommended",
+   "page": 42,
+   "quote": "the Company is evaluating potential financing approaches and commercial structures, including arrangements with third parties and large-load customers, that may improve project economics",
+   "values": [],
+   "note": "SMR financing with large-load customers",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "dominion-2026-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "explicit_provision",
+   "page": 26,
+   "quote": "As of July 31, 2025, the Company has 16,913 MW of requested capacity under firm contracts through executed ESAs or CLOAs. The Company is currently studying an additional 30,132 MW of data center capacity at the ELOA stage.",
+   "values": [
+    "16,913 MW",
+    "30,132 MW"
+   ],
+   "note": "As of July 2025",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "explicit_provision",
+   "page": 26,
+   "quote": "The Company uses a three-contract structure with large load customers that bind customers to increasing financial commitments as projects progress.",
+   "values": [],
+   "note": "ESA, CLOA, ELOA",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "mentioned_only",
+   "page": 51,
+   "quote": "interconnect data center customers",
+   "values": [],
+   "note": "Transmission action item only",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "planned_or_recommended",
+   "page": 27,
+   "quote": "Dominion Energy continues to explore opportunities for and interest in demand response programs with its largest customers. To date, data centers have been hesitant to participate in demand response",
+   "values": [],
+   "note": "Exploring; customers hesitant",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "dominion-2025-irp-update",
+   "jurisdiction": "Dominion Energy Virginia",
+   "verified": true,
+   "reasons": []
+  }
+ ],
+ "jurisdictions": [
+  {
+   "jurisdiction": "Dominion Energy Virginia",
+   "specificity": 75.0,
+   "protection": 100.0,
+   "cells": {
+    "demand_quantified": {
+     "status": "explicit_provision",
+     "doc_id": "dominion-2026-irp-update",
+     "page": 233,
+     "quote": "The Company has seen unprecedent levels of growth in both the size and number of requests for delivery points in the last several years, including the significant increase in volume and increased size from large-\nload customers. As of February 2026, approximately 25,000 megawatts of large-load delivery point requests",
+     "values": [
+      "25,000"
+     ]
+    },
+    "cost_allocation": {
+     "status": "explicit_provision",
+     "doc_id": "dominion-2026-irp-update",
+     "page": 13,
+     "quote": "To ensure data centers and other high load customers continue to pay their fair share and to mitigate against stranded costs, the Company proposed, and the SCC approved, a robust package of cost allocation, rate design, and Terms and Conditions changes",
+     "values": []
+    },
+    "dedicated_tariff": {
+     "status": "explicit_provision",
+     "doc_id": "dominion-2026-irp-update",
+     "page": 13,
+     "quote": "To ensure data centers and other high load customers continue to pay their fair share and to mitigate against stranded costs, the Company proposed, and the SCC approved, a robust package of cost allocation, rate design, and Terms and Conditions changes in the Company's biennial review proceeding, Case No. PUR-2025-00058. Notably, the Company's proposals included the creation of a new customer class for its most energy-intensive customers.",
+     "values": []
+    },
+    "financial_commitment": {
+     "status": "explicit_provision",
+     "doc_id": "dominion-2026-irp-update",
+     "page": 235,
+     "quote": "Execution of this agreement protects the Company, as discussed below, allows the distribution team to add the data center project to our queue, and begins the engineering study and design processes that are prerequisites to connect to the grid. At signing, a $250,000 deposit is required",
+     "values": [
+      "$250,000"
+     ]
+    },
+    "interconnection_process": {
+     "status": "explicit_provision",
+     "doc_id": "dominion-2026-irp-update",
+     "page": 234,
+     "quote": "The connection process begins when a data center submits a request for service to Dominion Energy's distribution team. The request must include a site plan or building layout, requested energization date, the capacity being requested including a ramp schedule, and meter voltage",
+     "values": []
+    },
+    "flexibility": {
+     "status": "planned_or_recommended",
+     "doc_id": "dominion-2025-irp-update",
+     "page": 27,
+     "quote": "Dominion Energy continues to explore opportunities for and interest in demand response programs with its largest customers. To date, data centers have been hesitant to participate in demand response",
+     "values": []
+    },
+    "self_supply": {
+     "status": "planned_or_recommended",
+     "doc_id": "dominion-2026-irp-update",
+     "page": 42,
+     "quote": "the Company is evaluating potential financing approaches and commercial structures, including arrangements with third parties and large-load customers, that may improve project economics",
+     "values": []
+    },
+    "siting_limits": null
+   }
+  },
+  {
+   "jurisdiction": "Virginia",
+   "specificity": 62.5,
+   "protection": 100.0,
+   "cells": {
+    "demand_quantified": {
+     "status": "explicit_provision",
+     "doc_id": "va-2026-energy-plan",
+     "page": 114,
+     "quote": "VEP modeling projects that data centers could account for more than 90% of the Commonwealth's electricity-demand growth over the next two decades.",
+     "values": [
+      "90%"
+     ]
+    },
+    "cost_allocation": {
+     "status": "explicit_provision",
+     "doc_id": "va-2026-energy-plan",
+     "page": 114,
+     "quote": "Continuing to implement robust protections and cost allocation practices will be essential to protect residential, small businesses, and other ratepayers from the infrastructure costs caused by data centers.",
+     "values": []
+    },
+    "dedicated_tariff": {
+     "status": "explicit_provision",
+     "doc_id": "va-2026-energy-plan",
+     "page": 42,
+     "quote": "The SCC has created a separate large load rate class for Dominion Energy Virginia and related service terms for qualifying large load customers",
+     "values": []
+    },
+    "financial_commitment": {
+     "status": "explicit_provision",
+     "doc_id": "va-2026-energy-plan",
+     "page": 42,
+     "quote": "qualifying large load customers, including a 14-year contract term, minimum demand charges, collateral requirements, and exit-fee provisions, effective January 1, 2027.",
+     "values": [
+      "14"
+     ]
+    },
+    "interconnection_process": {
+     "status": "planned_or_recommended",
+     "doc_id": "va-2026-energy-plan",
+     "page": 42,
+     "quote": "the SCC directed revisions to Dominion's proposed large load connection queue",
+     "values": []
+    },
+    "flexibility": {
+     "status": "mentioned_only",
+     "doc_id": "va-2026-energy-plan",
+     "page": 96,
+     "quote": "The Distributed Flexibility Scenario assumes all data centers provide the equivalent of a 10% reduction in peak demand.",
+     "values": [
+      "10%"
+     ]
+    },
+    "self_supply": {
+     "status": "planned_or_recommended",
+     "doc_id": "va-2026-energy-plan",
+     "page": 118,
+     "quote": "this could include promoting large load offtake models, large multi-unit orderbooks, ring-fenced subsidiary investment",
+     "values": []
+    },
+    "siting_limits": null
+   }
+  },
+  {
+   "jurisdiction": "New Jersey",
+   "specificity": 25.0,
+   "protection": 16.7,
+   "cells": {
+    "demand_quantified": {
+     "status": "explicit_provision",
+     "doc_id": "nj-2024-emp",
+     "page": 7,
+     "quote": "30 of the 32 GW of projected load growth by 2030 is associated with large load data center construction in the PJM region",
+     "values": [
+      "30 GW",
+      "32 GW",
+      "2030"
+     ]
+    },
+    "cost_allocation": {
+     "status": "planned_or_recommended",
+     "doc_id": "nj-2024-emp",
+     "page": 9,
+     "quote": "New load from data centers will enter the PJM system rapidly, and PJM can create new mechanisms to help accelerate the deployment of new resources. However, to the extent that new load enters the system before matching new generation, PJM must also ensure the new load enters the system flexibly to protect ratepayer costs and grid reliability.",
+     "values": []
+    },
+    "dedicated_tariff": null,
+    "financial_commitment": null,
+    "interconnection_process": {
+     "status": "mentioned_only",
+     "doc_id": "nj-2024-emp",
+     "page": 9,
+     "quote": "The ongoing Large Load Critical Issue Fast Path charge at PJM is the most direct process addressing the issue, but load forecasting, interconnection processes, and market structure must also broadly be considered.",
+     "values": []
+    },
+    "flexibility": {
+     "status": "planned_or_recommended",
+     "doc_id": "nj-2024-emp",
+     "page": 9,
+     "quote": "New load from data centers will enter the PJM system rapidly, and PJM can create new mechanisms to help accelerate the deployment of new resources. However, to the extent that new load enters the system before matching new generation, PJM must also ensure the new load enters the system flexibly to protect ratepayer costs and grid reliability.",
+     "values": []
+    },
+    "self_supply": null,
+    "siting_limits": null
+   }
+  },
+  {
+   "jurisdiction": "PacifiCorp",
+   "specificity": 12.5,
+   "protection": 0.0,
+   "cells": {
+    "demand_quantified": {
+     "status": "mentioned_only",
+     "doc_id": "pacificorp-2025-irp-vol1",
+     "page": 22,
+     "quote": "a sensitivity analysis evaluates the impacts of significant new data center loads coming online in the 2027-2033 timeframe",
+     "values": [
+      "2027-2033"
+     ]
+    },
+    "cost_allocation": null,
+    "dedicated_tariff": null,
+    "financial_commitment": null,
+    "interconnection_process": null,
+    "flexibility": {
+     "status": "explicit_provision",
+     "doc_id": "pacificorp-2025-irp-vol1",
+     "page": 145,
+     "quote": "PacifiCorp has had interruptible contracts with large load customers for many years. These contracts are a key aspect of the retail service provided to the associated customers",
+     "values": []
+    },
+    "self_supply": {
+     "status": "mentioned_only",
+     "doc_id": "pacificorp-2025-irp-vol1",
+     "page": 247,
+     "quote": "driven by lower projected demand from new large customers who are expected to bring their own resources, thus lowering the commercial forecast.",
+     "values": []
+    },
+    "siting_limits": null
+   }
+  },
+  {
+   "jurisdiction": "Maine",
+   "specificity": 0.0,
+   "protection": 0.0,
+   "cells": {
+    "demand_quantified": null,
+    "cost_allocation": null,
+    "dedicated_tariff": null,
+    "financial_commitment": null,
+    "interconnection_process": null,
+    "flexibility": null,
+    "self_supply": null,
+    "siting_limits": null
+   }
+  },
+  {
+   "jurisdiction": "Oregon",
+   "specificity": 0.0,
+   "protection": 0.0,
+   "cells": {
+    "demand_quantified": {
+     "status": "mentioned_only",
+     "doc_id": "or-2025-energy-strategy",
+     "page": 89,
+     "quote": "Although new tech loads, such as data centers, are expected to be the biggest near-term driver of electricity demand growth, relatively little information is available for these loads",
+     "values": []
+    },
+    "cost_allocation": {
+     "status": "mentioned_only",
+     "doc_id": "or-2025-energy-strategy",
+     "page": 89,
+     "quote": "Yet federal law restricts BPA's ability to supply new large loads at its lowest rates. Any service to those loads by BPA would be at a much higher rate that covers the full cost of that service or would be served by an alternative power supply that the COUs procure.",
+     "values": []
+    },
+    "dedicated_tariff": null,
+    "financial_commitment": {
+     "status": "mentioned_only",
+     "doc_id": "or-2025-energy-strategy",
+     "page": 116,
+     "quote": "Investment support from non-utility entities, particularly new large loads with significant interest in transmission upgrades, could be key to stretching limited utility and other capital.",
+     "values": []
+    },
+    "interconnection_process": null,
+    "flexibility": {
+     "status": "mentioned_only",
+     "doc_id": "or-2025-energy-strategy",
+     "page": 67,
+     "quote": "New loads driven primarily by data centers and electrification must be integrated with an increasing supply of renewable energy resources with variable power outputs. Demand response (DR) programs allow customers to play a role in balancing grid operations",
+     "values": []
+    },
+    "self_supply": null,
+    "siting_limits": null
+   }
+  },
+  {
+   "jurisdiction": "Utah",
+   "specificity": 0.0,
+   "protection": 0.0,
+   "cells": {
+    "demand_quantified": null,
+    "cost_allocation": null,
+    "dedicated_tariff": null,
+    "financial_commitment": null,
+    "interconnection_process": null,
+    "flexibility": null,
+    "self_supply": null,
+    "siting_limits": null
+   }
+  }
+ ],
+ "kpis": {
+  "documents_total": 11,
+  "documents_read": 8,
+  "documents_failed": [
+   "ny-2025-sep-summary",
+   "ny-2025-sep-electricity",
+   "ny-2025-sep-pathways"
+  ],
+  "cells_total": 64,
+  "claimed_cells": 28,
+  "verified_cells": 28,
+  "verified_rate_pct": 100.0,
+  "not_addressed_cells": 36,
+  "unparsed_cells": 0,
+  "status_counts": {
+   "explicit_provision": 13,
+   "planned_or_recommended": 6,
+   "mentioned_only": 9,
+   "not_addressed": 36
+  },
+  "rejection_reasons": {}
+ }
+}

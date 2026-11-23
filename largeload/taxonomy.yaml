@@ -1,0 +1,66 @@
+# What a policy document can say about large new electricity loads (data centers and similar).
+# The matrix records what each document SAYS, not what is law or tariff in force.
+version: 1
+anchor_terms:            # a page or quote must mention one of these to count as about large loads
+  - data center
+  - data centre
+  - datacenter
+  - large load
+  - large-load
+  - large loads
+  - hyperscale
+  - large customer
+  - large commercial and industrial
+  - high load factor
+  - high-load-factor
+  - crypto
+  - artificial intelligence
+statuses:
+  explicit_provision:   {points: 2, meaning: "The document states a rule, requirement, adopted tariff or mechanism that applies to large loads."}
+  planned_or_recommended: {points: 1, meaning: "The document recommends, proposes, or says it will study or develop such a mechanism."}
+  mentioned_only:       {points: 0, meaning: "The document acknowledges large loads or the topic but states no provision."}
+  not_addressed:        {points: 0, meaning: "Nothing relevant in the retrieved pages."}
+attributes:
+  - id: demand_quantified
+    name: Large-load demand quantified
+    group: planning
+    question: "Does the document quantify expected data-center or large-load demand (MW, GW, GWh, percent) and for what year?"
+    terms: [data center demand, load growth, forecast, MW, GW, gigawatts, peak demand, large load growth]
+  - id: cost_allocation
+    name: Who pays for new infrastructure
+    group: protection
+    question: "Does the document state a principle or rule for who pays for generation, transmission or distribution built to serve large loads (for example, cost causation or protecting other customers)?"
+    terms: [cost allocation, cost causation, ratepayers, shift costs, other customers, who pays, protect ratepayers, cost responsibility]
+  - id: dedicated_tariff
+    name: Dedicated large-load tariff or rate class
+    group: protection
+    question: "Does the document describe a dedicated rate class or tariff for large loads?"
+    terms: [tariff, rate class, rate schedule, large load tariff, rate design, special contract]
+  - id: financial_commitment
+    name: Financial commitments from large loads
+    group: protection
+    question: "Does the document describe minimum demand charges, take-or-pay, long-term contracts, collateral, credit requirements or exit fees for large loads?"
+    terms: [minimum demand, take-or-pay, contract term, collateral, credit requirements, exit fee, long-term contract, minimum bill]
+  - id: interconnection_process
+    name: Interconnection and study process
+    group: process
+    question: "Does the document describe an interconnection, study, queue or timeline process specific to large loads?"
+    terms: [interconnection, queue, study process, energization, timeline, load interconnection, ready to serve, service request]
+  - id: flexibility
+    name: Load flexibility and curtailment
+    group: process
+    question: "Does the document describe demand response, curtailment or flexible-load requirements or incentives for large loads?"
+    terms: [demand response, curtail, flexible load, load flexibility, interruptible, load shedding, backup generation]
+  - id: self_supply
+    name: Own supply or clean-energy expectations
+    group: supply
+    question: "Does the document describe bring-your-own-generation, co-location, or clean or firm energy expectations for large loads?"
+    terms: [bring your own, behind the meter, co-location, onsite generation, clean energy, firm power, nuclear, new generation]
+  - id: siting_limits
+    name: Siting criteria, caps or pauses
+    group: supply
+    question: "Does the document describe siting criteria, caps, moratoria or resource limits (for example water or land) for large loads?"
+    terms: [siting, moratorium, pause, cap, water use, land use, zoning, location]
+scores:
+  specificity: {attributes: all, label: "Policy specificity"}
+  protection: {attributes: [cost_allocation, dedicated_tariff, financial_commitment], label: "Ratepayer protection"}

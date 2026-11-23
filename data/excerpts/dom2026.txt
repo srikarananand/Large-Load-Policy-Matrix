@@ -1,0 +1,88 @@
+### https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2026-integrated-resource-plan-update.pdf?rev=22c87cd8027d4db69b4e31945e488103
+meta: n_pages=400 pages_with_text=399 anchor_pages=68 pages_sent=13,41,42,235,233,234
+@@ page 13
+ctions of electric rates in the forward-looking bill
+analysis, the Company expects to maintain its long record of competitive rates.
+Customer Protections
+The past two years have seen important developments in the Company’s commitment to ensuring all customers pay
+fair and equitable shares to support electric grid investments.
+In December 2024, the Virginia Joint Legislative Audit and Review Commission released the results of a year-long
+study of data center industry impacts in Virginia. The results concluded that data centers had been paying their full
+cost of electric service but foreshadowed that additional reforms could be necessary to ensure fairness going
+forward.
+To ensure data centers and other high load customers continue to pay their fair share and to mitigate against
+stranded costs, the Company proposed, and the SCC approved, a robust package of cost allocation, rate design,
+and Terms and Conditions changes in the Company’s biennial review proceeding, Case No. PUR-2025-00058.
+Notably, the Company’s proposals included the creation of a new customer class for its most energy-intensive
+customers. The criteria for inclusion in the new class (called GS-5) are: 1) a contracted 
+@@ page 41
+eactor technology other than the GE Hitachi ESBWR, it would necessitate a
+COL amendment.
+In addition to the federal licenses, the Company currently holds an Operational Water Withdrawal permit from the
+Virginia Department of Environmental Quality (“VDEQ”) for the operational requirements associated with the
+ESBWR.
+Federal policy support for new nuclear has increased, and interest in nuclear as firm, carbon-free power has grown,
+particularly from large-load and industrial customers. At the same time, new nuclear development continues to
+require careful evaluation of siting, licensing, construction execution, supply chain, fuel availability, cost, and
+financing.
+Small Modular Reactors
+These technologies build upon decades of proven nuclear operating experience while incorporating innovations
+designed to enhance safety, support scalable development through a modular approach, and strengthen
+deploymen
+@@ page 42
+ortfolios. Since
+the 2025 IRP Update, the Company has furthered its assessment of SMR siting and development considerations at
+the North Anna Power Station. The Company also received SCC approval in July 2026 of its second Rider SMR
+application, enabling recovery of eligible early-stage development costs. In parallel, the Company is evaluating
+potential financing approaches and commercial structures, including arrangements with third parties and large-load
+customers, that may improve project economics and preserve optionality for future SMR development. Depending
+on the outcome of these evaluations, SMR deployment could occur earlier than assumed in the resource portfolios
+presented in this 2026 IRP.
+Traditional Scale Reactors
+Traditional large-scale nuclear power plants, such as the Company’s Surry and North Anna nuclear stations, remain
+a proven source of reliable, carbon-free baseload electrici
+@@ page 233
+8
+The summation of each customer’s average annual energy and capacity use then formed the starting point
+for the Choice Customer forecast. Figure 4A-9 below identifies the Choice Customer peak demand and
+energy forecast adjustment in this 2026 IRP. The values in Figure 4A-9 represent non-data center
+customers only, as data center customers included in the forecast already exclude choice load.
+Figure 4A-9: Non-data center Retail Choice Annual Adjustment for each year 2026-2046
+Year 
+Estimated Retail
+Choice Sales (GWh)
+Estimated Retail Choice
+Summer CP (MW)
+2026-2046 3,017 500
+Due to the uncertain nature of customer migration in or out of Choice, the Retail Choice Adjustment was
+held constant throughout the forecast period. Currently retail choice load is excluded from all IRP reference
+cases.
+Data Center Forecasting for the DOM LSE
+The Company has seen unprecedent levels of growth in both the size and number of requests for delivery
+points in the last several years, including the significant increase in volume and increased size from large-
+load customers. As of February 2026, approximately 25,000 megawatts of large-load delivery point requests
+have been received with projected conn
+@@ page 234
+ the
+selected customer segment models to derive a MWh forecast by segment, excluding retail choice MWhs.
+The aggregate of these individual MWh forecasts is used as the Company’s submission for sales.
+The fifth and final step in the process is to convert billing demand into coincident demand. The Company
+used the historical ratio of coincident demand to billing demand to determine the aggregate coincident
+demand for submission to PJM.
+The DOM LSE Data Center Contracting Process
+The Contracting Process for Data Centers
+3
+The connection process begins when a data center submits a request for service to Dominion Energy’s
+distribution team. The request must include a site plan or building layout, requested energization date, the
+capacity being requested including a ramp schedule, and meter voltage (primary or secondary voltage).
+The Company reviews this request and provides information to the customer, including a feasibility report to
+identify any critical flaws and high-level needs for energization. Upon receipt of this information, the
+customer decides whether to proceed to an Engineering Letter of Authorization (“ELOA”).
+Figure 4A-10 provides a brief overview of each step of a typic
+@@ page 235
+10
+Figure 4A-10: Typical Data Center Request Process from Contact to Connection
+If the customer wishes to proceed, the first step in our contracting process is executing an ELOA. Execution
+of this agreement protects the Company, as discussed below, allows the distribution team to add the data
+center project to our queue, and begins the engineering study and design processes that are prerequisites
+to connect to the grid. At signing, a $250,000 deposit is required to support engineer

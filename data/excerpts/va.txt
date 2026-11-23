@@ -1,0 +1,88 @@
+### https://energy.virginia.gov/public/documents/Virginia%20Energy%20Plan/2026%20Virginia%20Energy%20Plan%20-For%20Publishing.pdf
+meta: n_pages=155 pages_with_text=155 anchor_pages=55 pages_sent=42,86,114,93,96,118
+@@ page 42
+40
+The VEP therefore examines multiple demand scenarios. Its detailed forecast considers project status, contractual
+commitments, anticipated demand relative to requested capacity, and the time required for facilities to reach full
+operation (see Section 3B: Load Growth and Policy Scenarios and Appendix: Modeling Assumptions and Inputs).
+Who pays for new infrastructure is equally important. Data centers can contribute significant utility revenue (see the
+“Costs and Who Pays” subsection) but serving them may require investments that would not otherwise be needed or
+would not be needed as quickly. During Energy Plan listening sessions, stakeholders consistently said that new data
+centers should bear an appropriate share of the costs and financial risks arising from their service requirements.
+The SCC has created a separate large load rate class for Dominion Energy Virginia and related service terms for
+qualifying large load customers, including a 14-year contract term, minimum demand charges, collateral requirements,
+and exit-fee provisions, effective January 1, 2027.
+62 
+In a separate, ongoing proceeding, the SCC directed revisions to
+Dominion’s proposed large load connection queue 
+@@ page 86
+84
+There is significant uncertainty associated with how much currently requested data center demand will ultimately
+materialize. A large load request for electric service is not necessarily a completed project or an operating load:
+developers may evaluate multiple sites, revise facility size or construction schedules, or ultimately decide not to
+proceed. National analysis by Wood Mackenzie estimates that only 28% of requested U.S. data-center load is likely to
+materialize, and other states have recently seen a drop in data center demand after imposing more robust financial
+commitments.
+208 
+In September 2025, AEP Ohio established a large-load tariff that required specified financial
+commitments from prospective data-center customers; following implementation, AEP Ohio reduced its projected
+2030 data-center load forecast from approximately 30 GW to 13 GW. 
+209 
+This underscores the difference between
+early-stage inquiries and commercially committed demand.
+For example, Dominion Energy’s total requested data center contracts have reached 53,800 MW as of July 2026.
+However, most of this pipeline remains in preliminary utility engineering and study stages, rather than representing
+cust
+@@ page 93
+Coastal
+Plain.
+216 
+As a result, the new and existing gas capacity in the No Policy case could not realistically be decarbonized in
+time to meet Virginia’s net- zero goals.
+Distributed Flexibility Scenario
+The Distributed Flexibility Scenario builds on the Current Policies case by testing three targeted changes designed to
+manage rapid load growth with a more distributed, flexible, and lower-impact resource mix: a statewide 10 GW DER
+target, 10% data center demand flexibility during peak periods,
+217 
+and up to 5 GW of optional non-combustion gas
+capacity. This tests how targeted adjustments could impact costs, local air pollution and health impacts, emissions, and
+generation buildout.
+In the moderate load forecast, the Distributed Flexibility Scenario produces lower direct system costs than Current
+Policies while remaining on a pathway consistent with the VCEA’s 2045 and 2050 targets. The cost red
+@@ page 96
+, and distribution upgrades. Although they may
+cost more than utility-scale solar, DERs mobilize private capital and compensate participating
+customers, supporting customer affordability. The Distributed Flexibility Scenario targets
+10 GW of DER deployment by 2045, including 5 GW by 2040. For modeling purposes, DERs
+are modeled as solar+storage systems; additional value may be available from other flexible
+technologies and VPP-enabled resources.
+Data center demand flexibility: Data-center demand flexibility is the ability of large
+customers to reduce, shift, or manage electricity use when the grid is most constrained. It can
+be delivered on site through load shifting, on-site storage, or curtailing operations, or through
+verified off-site resources and contracts—including VPPs, distributed solar and storage,
+and DR—that reduce system peak elsewhere on the grid. Reducing load during the highest-
+demand hours lowers the amount of new capacity and grid infrastructure the system must
+build, while improving utilization of existing infrastructure. The Distributed Flexibility Scenario
+assumes all data centers provide the equivalent of a 10% reduction in peak demand.
+Non-combustion gas res
+@@ page 114
+mentation to deliver integrated planning across generation, transmission, distribution, and DERs; a
+more proactive and forward-looking assessment of load growth, congestion, and reliability needs; and improved
+transparency around least-cost alternatives. Consider integrated electric and gas planning strategies. Continue
+integration of DERs, VPPs, ATTs and other advanced technologies in integrated grid planning approaches (as noted
+above).
+Ensure data center growth advances Virginia’s energy goals
+Context: Virginia is the world’s largest data-center market, and VEP modeling projects that data centers could account
+for more than 90% of the Commonwealth’s electricity-demand growth over the next two decades. Rapid data center
+load growth is driving grid infrastructure constraints and higher costs, including at the PJM wholesale-market level, as
+discussed in Section 2G: Energy Affordability. Continuing to implement robust protections and cost allocation practices
+will be essential to protect residential, small businesses, and other ratepayers from the infrastructure costs caused by
+data centers.
+Data center investment can help accelerate deployment of clean generation, storage, grid inf
+@@ page 118
+ to long-lived fossil generation assets
+that may become stranded or require retirement prior to the end of their economic life.
+• Accelerate responsible nuclear deployment, including with appropriate cost protections: Pursue
+strategies that accelerate nuclear deployment at scale across the Commonwealth. This should include
+supporting nuclear financing structures that protect residential ratepayers from cost overruns; this could
+include promoting large load offtake models, large multi-unit orderbooks, ring-fenced subsidiary investment

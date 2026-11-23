@@ -1,0 +1,93 @@
+### https://cdn-dominionenergy-prd-001.azureedge.net/-/media/content/about/our-company/irp/pdfs/2025-integrated-resource-plan-update.pdf?rev=c656e4bd80184dbc80d4531cb6e9e975
+meta: n_pages=255 pages_with_text=255 anchor_pages=18 pages_sent=26,27,169,24,16,51
+@@ page 16
+8
+Chapter 2. Current Challenges to Reliability
+In recent years, Dominion Energy has experienced consistent load growth, which is expected to
+significantly outpace the average growth in PJM. The growth is driven in large part by the
+digitization of the economy served by data centers.
+Spikes in demand during winter storms and heat waves have highlighted the vulnerability of the
+electric grid. To mitigate these risks and ensure reliability, PJM executed a capacity market reform
+tying the value of energy generators to their contribution at the time of need. Challenges to
+reliability associated with a substantially increasing proportion of renewable generators on the grid
+need to be addressed through an appropriate mix of gene
+@@ page 24
+16
+provided the VO savings as part of a Large Load Adjustment to PJM. The VO savings are therefore
+embedded in the PJM DOM Zone forecast.
+Figure 2.1.11: EE Energy Forecast Adjustment (GWh)
+Figure 2.1.12: EE Peak Demand Forecast Adjustment (MW)
+Retail Choice Adjustment to DOM LSE Load Forecast
+The load forecasts in the 2025 IRP Update include a downward adjustment for Choice Customers.
+8
+The method to develop the retail choice adjustment remains largely the same from prior IRPs and
+is described i
+@@ page 26
+tional details
+about the three types of contracts.
+Figure 2.1.14: Customer Contracts Executed, as of July 2025
+Figure 2.1.15 illustrates the significant growth in contracts from 2023 to 2025, as well as the
+movement of projects through the three stages of contracts. As of July 31, 2025, the Company has
+16,913 MW of requested capacity under firm contracts through executed ESAs or CLOAs. The
+Company is currently studying an additional 30,132 MW of data center capacity at the ELOA
+stage.
+11 
+While the Company does not forecast data center load by contract, the Data Center Load Forecast is validated by
+the significant number of executed contracts with customers. The Company uses a three-contract structure with large
+load customers that bind customers to increasing financial commitments as projects progress.
+@@ page 27
+19
+Figure 2.1.15: Data Center Contract Growth
+Contract Values
+Capacity (MW) End of July
+2023
+End of July
+2024
+End of July
+2025
+ESAs 5,827 8,012 9,815
+CLOAs 2,008 5,835 7,098
+Firm Capacity 7,835 13,847 16,913
+ELOAs 8,658 7,570 30,132
+Total Contracts 16,493 21,417 47,045
+Data center customer load is unique. Data centers operate with a very high load factor, meaning
+the consumption of energy is very high relative to the level of demand. Said differently, data centers
+have a constant 24x7x365 energy profile. In addition to building infrastructure to serve these
+customers, the Company offers a number of DSM programs that data centers have and are able to
+take advantage of, including a program tailored to data center measures, as well as new
+construction, automation, lighting, HVAC, and other energy efficiency products. Dominion Energy
+continues to explore opportunities for and interest in demand response programs with its largest
+customers. To date, data centers have been hesitant to participate in demand response or
+interruptible service participation programs; the Company has seen no evidence that data center
+customers are willing to reduce load in response to high price signals. As P
+@@ page 51
+ransmission
+resources:
+• Continue to assess the Company’s transmission system needs to upgrade or construct
+facilities required to meet the needs of its customers. Work with PJM to find cost-effective
+ways to upgrade existing infrastructure and invest in new infrastructure to support demand
+growth, as discussed in Chapter 2.3.2.
+• Pursue necessary regulatory approvals of new transmission lines needed to rebuild aging
+infrastructure, interconnect data center customers, address reliability criteria violations,
+and interconnect new renewable energy projects and reliability projects approved through
+the PJM Open Window process.
+• Continue to study the transmission system reliability needs resulting from the addition of
+significant renewable energy resources and the potential retirement of synchronous
+generator facilities, as discussed in Chapter 2.3.3.
+3.6.4 Distribution
+Distributed renewable, inverter
+@@ page 169
+3
+Non-Residential Curtailment Demand Response (DR)
+Target Class: Non-Residential
+VA Program Type: Demand Response
+NC Program Type: Demand Response
+VA Duration: Proposed
+NC Duration: Future
+Program Description:
+The proposed program design targets medium sized and large commercial and industrial (C&I) customers to
+curtail their energy usage using manual load curtailment during times of peak system demand. Each
+participating customer (facility) will have a curtailment plan developed, also known as a load reduction plan
+(LRP), which is specific to the facility and guided by engineering assessments put together by the program
+implementation vendor in collaboration with facility staff, factoring in the opportunity cost of participation,
+fac

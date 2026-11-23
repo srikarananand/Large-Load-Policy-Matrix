@@ -1,0 +1,53 @@
+### https://www.pacificpower.net/content/dam/pcorp/documents/en/pacificorp/energy/integrated-resource-plan/2025-irp/2025_IRP_Vol_1.pdf
+meta: n_pages=334 pages_with_text=334 anchor_pages=9 pages_sent=145,247,25,22,48
+@@ page 22
+queue, the transmission
+service queue, the specific location of any given generating resource and the type of equipment proposed for any
+given generating resource.
+2 
+Transmission upgrades frequently include primarily all-or-nothing components, though the cluster study process
+allows for some project-specific timing and costs.
+In Chapter 9 (Modeling and Portfolio Selection Results), a sensitivity analysis evaluates the
+impacts of significant new data center loads coming online in the 2027-2033 timeframe and
+supports continuing with permitting Energy Gateway segments, as well as initiating preliminary
+permitting and development activities for future transmission investments not currently included
+in the preferred portfolio. These future transmission projects can include development of additional
+transmission expansion segments and exploration of new routes that have connections to other
+regions (i.e
+@@ page 25
+
+@@ page 48
+
+@@ page 145
+ummer-time peak loads which often occur
+during solar generation hours when net demand is lower. As a result, treatment as a resource
+provides a larger capacity benefit currently. PacifiCorp expects to continue evaluating this as the
+WRAP gets underway, as some demand response programs may be suitable for peak load
+reduction. Also included in the demand response category are interruptible contracts. PacifiCorp
+has had interruptible contracts with large load customers for many years. These contracts are a
+key aspect of the retail service provided to the associated customers, and absent these contracts
+their demand would likely be different from that included in the load forecast. To maintain an
+alignment with the load forecast, these contracts are assumed to continue indefinitely under their
+current structure.
+Obligation
+The obligation is the total electricity demand that PacifiCorp must serve, cons
+@@ page 247
+P ACIFICORP – 2025 IRP CHAPTER 9 – M ODELING AND P ORTFOLIO S ELECTION R ESULTS
+231
+the planning horizon, the average annual growth rate, before accounting for incremental energy
+efficiency improvements, is 2.03 percent for load and 1.91 percent for peak. Changes to
+PacifiCorp’s load forecast are driven by lower projected demand from new large customers who
+are expected to bring their own resources, thus lowering the commercial forecast.
+5
+Figure 9.8 – Load Forecast Comparison between Recent IRPs (Before Incremental Energy
+Efficiency Savings)
+DSM resources continue to play a key role in PacifiCorp’s resource mix. The chart to the left in
+Figure 9.9 compares total energy efficiency capacity savings in the 2025 IRP preferred portfolio
+relative to the 2023 IRP preferred portfolio. Cumulative capa
+@@ window
+eferred portfolio and does not include capacity from existing programs. The 2025 IRP
+has a cumulative capacity of demand response programs totaling 515 MW by 2040. By year-end
+2045, the 2025 IRP preferred portfolio has a cumulative capacity of demand response programs
+totaling 789 MW.
+5 
+A different approach is needed to protect existing customers from sizeable resource and transmission infras

@@ -104,7 +104,7 @@ thead th{{background:#f0f4f8;font-size:12.5px}} .exh{{font-weight:600;margin:18p
 <p class="exh">Exhibit 1: What each document says about large new loads</p>
 <p>{legend}</p>
 <div class="scroll"><table><thead><tr><th>Jurisdiction</th>{head}<th>Specificity</th><th>Protection</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
-<p class="src">Source: public documents listed in Exhibit 3; coded by Claude from hash-verified excerpts and checked by the evidence guard. Specificity is the share of the 16 available points across 8 attributes (provision = 2, planned = 1, mention = 0). Protection uses cost allocation, dedicated tariff and financial commitment. Click a cell to see its quote.</p>
+<p class="src">Source: public documents listed in Exhibit 3; coded by an AI assistant from hash-verified excerpts and checked by the evidence guard. Specificity is the share of the 16 available points across 8 attributes (provision = 2, planned = 1, mention = 0). Protection uses cost allocation, dedicated tariff and financial commitment. Click a cell to see its quote.</p>
 <div class="sowhat"><b>So what.</b> Virginia's SCC-created large-load class (14-year term, minimum demand charges, collateral, exit fees) and Dominion's deposit and three-contract structure are the only places a financial commitment is stated as a rule. For a planner or analyst, this is the template to compare other states against, and the gap to ask about elsewhere.</div>
 
 <h2>2. Evidence: every cell links to its quote and page</h2>
@@ -134,7 +134,7 @@ thead th{{background:#f0f4f8;font-size:12.5px}} .exh{{font-weight:600;margin:18p
 
 <h2>5. Limits you should know</h2>
 <ul>
-<li><b>Coder.</b> The status labels and quotes were written by Claude reading the excerpts in one session. The repository also ships a Groq-based extractor (<code>largeload/extract.py</code>) for a fully automated run; it was not run for this report.</li>
+<li><b>Coder.</b> The status labels and quotes were written by an AI assistant reading the excerpts in one session. The repository also ships a Groq-based extractor (<code>largeload/extract.py</code>) for a fully automated run; it was not run for this report.</li>
 <li><b>Excerpts, not full pages.</b> The guard checks quotes against text windows around large-load terms, not whole pages. The retrieval in the browser step is close to, but not identical with, the Python retrieval in the repo.</li>
 <li><b>Provenance.</b> The three New York volumes were supplied as PDF files and excerpted with the repo's Python retrieval; the other eight were excerpted in a browser with pdf.js and hash-checked after transcription. Text layers differ (the New York PDF spells &ldquo;New York&rdquo; as &ldquo;New Y ork&rdquo;, and one quote keeps that spelling so it matches the page).</li>
 <li><b>Coverage.</b> Maine and Utah returned almost no large-load text, so their zeros mean &ldquo;nothing retrieved&rdquo;. One PacifiCorp excerpt was cut off before the relevant sentence, so that cell is left empty.</li>

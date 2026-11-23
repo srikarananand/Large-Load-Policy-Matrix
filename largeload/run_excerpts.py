@@ -2,8 +2,8 @@
 
     python -m largeload.run_excerpts
 
-Extractor of record for the published run: data/extractions/claude_in_session.py (cells written by
-Claude from the excerpts). Documents without an excerpt file are reported as not read, not scored.
+Extractor of record for the published run: data/extractions/ai_assisted_session.py (cells written by
+an AI assistant from the excerpts). Documents without an excerpt file are reported as not read, not scored.
 """
 import datetime
 import importlib.util
@@ -33,7 +33,7 @@ def load_cells(path):
     return mod.CELLS
 
 
-def build(excerpt_dir=REPO / "data/excerpts", cells_path=REPO / "data/extractions/claude_in_session.py"):
+def build(excerpt_dir=REPO / "data/excerpts", cells_path=REPO / "data/extractions/ai_assisted_session.py"):
     cells_by_doc = load_cells(cells_path)
     sources = D.load_sources()
     read, status, all_cells, hashes = [], [], [], {}
@@ -53,7 +53,7 @@ def build(excerpt_dir=REPO / "data/excerpts", cells_path=REPO / "data/extraction
             all_cells.append({**cell, "doc_id": doc["id"], "jurisdiction": doc["jurisdiction"],
                               "verified": ok, "reasons": why})
     return {"generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-            "extractor": "Claude, in-session, from hash-verified excerpts (not the Groq pipeline)",
+            "extractor": "An AI assistant, in one session, from hash-verified excerpts (not the Groq pipeline)",
             "documents": read, "all_documents": sources, "document_status": status, "excerpt_sha256": hashes,
             "cells": all_cells, "jurisdictions": aggregate.scores(read, all_cells, TAXONOMY),
             "kpis": aggregate.kpis(status, all_cells)}

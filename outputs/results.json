@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T01:44:42+00:00",
- "extractor": "Claude, in-session, from hash-verified excerpts (not the Groq pipeline)",
+ "generated_at": "2026-11-23T03:53:13+00:00",
+ "extractor": "An AI assistant, in one session, from hash-verified excerpts (not the Groq pipeline)",
  "documents": [
   {
    "id": "ny-2025-sep-summary",

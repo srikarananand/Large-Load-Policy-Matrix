@@ -14,7 +14,7 @@ How do public energy plans treat data centers and other large new loads? This pr
 
 ## What this does not show
 
-- **Who coded the cells.** The published labels and quotes were written by Claude from the excerpts in a single session (`data/extractions/claude_in_session.py`). The fully automated extractor (`largeload/extract.py`, Groq) is included but was not run for this report.
+- **Who coded the cells.** The published labels and quotes were written by an AI assistant from the excerpts in a single session (`data/extractions/ai_assisted_session.py`). The fully automated extractor (`largeload/extract.py`, Groq) is included but was not run for this report.
 - **Label accuracy is unmeasured.** The guard proves a quote exists on the page. It cannot tell whether the status label (provision, planned, mentioned) is the right reading; fault injection caught 0% of overstated statuses. `eval/review_sheet.csv` holds a stratified sample of cells for a second reader to mark; `python -m largeload.review score eval/review_sheet.csv` computes precision.
 - **Excerpts, not full pages.** The guard checks quotes against text windows around large-load terms. The 8 browser-extracted excerpt files in `data/excerpts/` were transcribed into the repo and each matches a SHA-256 computed in the browser; the 3 `ny_*` files were produced in the sandbox from the supplied PDFs (`excerpt_sha256` in `outputs/results.json`).
 - **"Not found" is not "not present."** Maine and Utah returned almost no large-load text.

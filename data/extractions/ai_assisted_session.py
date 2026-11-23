@@ -1,4 +1,4 @@
-"""Cells for the 8 reachable documents, written by Claude from the hash-verified excerpts in data/excerpts/.
+"""Cells for the 8 reachable documents, written by an AI assistant from the hash-verified excerpts in data/excerpts/.
 
 This is the extractor of record for the published run (the Groq extractor in largeload/extract.py
 could not be called from the build sandbox). Rules followed: use only the excerpt text, copy quotes

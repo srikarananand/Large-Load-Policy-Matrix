@@ -1,0 +1,133 @@
+### https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Pathways-Analysis.pdf
+meta: n_pages=86 pages_with_text=86 anchor_pages=11 pages_sent=69,25,30,5,63,9,72,76
+@@ page 5
+athways 
+Analysis.” This analysis explores how the State’s energy supply and 
+delivery systems will meet forecasted energy needs through 2040 
+in a manner that advances multiple objectives of the State: reliable, 
+clean, and affordable energy; economic development; equity; and a 
+healthy environment.
+• The energy system will undergo a meaningful transformation in final energy demand 
+between 2025 and 2040, even as all resources that contribute to meeting energy needs 
+today continue to be important at the end of the planning period. 
+• Future electricity demand is projected to grow due to new large loads and 
+electrification of transportation and buildings. In all pathways, new large loads 
+interconnecting to the system will drive growing electricity demand, across both annual 
+loads and peaks. 
+• Meeting this growing electricity load while maintaining system reliability, will require 
+investments in expansion of the electricity system under all pathways. Renewable 
+energy, nuclear, new transmission and battery storage are foundational to decarbonizing 
+the state’s electricity system while meeting the growing demand.   
+• Reliably integrating large quantities of variable renewable energy into the electricity 
+system will require flexibility and balancing over multiple timescale
+@@ page 9
+ directive 
+to NYPA to construct a nuclear project in upstate New York. 
+In response to extensive public and stakeholder feedback on the Draft Plan, this ﬁnal Plan also features 
+expanded analysis on several key themes, including a more detailed exploration of the potential role of 
+nuclear energy and new sensitivities designed speciﬁcally to assess the impacts of the new federal policy 
+landscape. While these updates reﬁne the results, the foundational, macro-level trends and conclusions 
+observed in the Draft Plan remain consistent. The fundamental challenges and opportunities, such as 
+new large loads, expanded electriﬁcation in the transportation and building sectors, the corresponding 
+expansion of the electric grid, and the signiﬁcant role of energy eﬃciency, are reaﬃrmed in this ﬁnal 
+Plan. 
+The ﬁnal Plan incorporates simultaneous updates to data (e.g., AEO), policy (e.g., IRA), and modeling 
+assumptions (e.g., equipment lifetimes). As a result, a direct comparison of scenario outputs between 
+the Draft and ﬁnal versions cannot be used to isolate the impact of any single factor, such as federal 
+policy. To understand the speciﬁc, discrete impacts of federal policies or other key uncert
+@@ page 25
+energy use, or 250 TBtu, as shown in Figure 14. 
+However, new industrial projects are expected to account for a signiﬁcant share of new load growth over 
+the planning horizon. Several large manufacturing and data-center projects are expected to enter service 
+this coming decade. By 2040, new industrial projects are expected to demand approximately 16 TWh of 
+electricity annually, equivalent to 75% of the industrial electricity demand today.14 Planning for this new 
+energy use is key to ensuring continued opportunities for economic growth in the state. The pace, 
+magnitude, and location of new large load growth is a signiﬁcant source of planning uncertainty and 
+should continue to be monitored. 
+On top of these discrete large loads, all scenarios see further growth based on the AEO.15 Industrial 
+actors are often seeking opportunities to improve process eﬃciency. The AEO considers such eﬃciency 
+improvements while developing energy trends, which inform the No Action and Current Policy scenarios’ 
+industrial energy projections (Figure 14). While it is likely that federal policy headwinds will aﬀect the 
+market for clean industry technologies such as energy eﬃciency and electriﬁcation, the extent of federal 
+policy change, including funding recission, is uncertain. As a result, the ﬁnal Plan does not include 
+signiﬁcant c
+@@ page 30
+cy. 50% of the electric load increase and 75% of the peak demand increase in this scenario 
+are also included in the No Action scenario. 
+• The Net Zero scenarios show the highest demand, with both reaching 254 TWh by 2040 due to 
+the comprehensive electriﬁcation of buildings and industry. 
+Figure 18. Annual load forecast (without electrolysis demands) 
+ 
+Median peak demand also varies with similar drivers as annual loads. By 2040, the No Action scenario 
+projects a median peak of 35 GW. Current Policies and Additional Action scenarios forecast median 
+peaks around 36 and 37 GW, respectively. Large loads and vehicle electriﬁcation are major contributors 
+to peak growth, with building shell eﬃciency across the entire stock largely oﬀsetting heat pump 
+contributions to peak. Net Zero A scenario shows a signiﬁcantly higher peak at 44 GW , while Net Zero B 
+scenario projects 41 GW, with 3 GW reduction achieved from customers with supplemental heat backup 
+who can switch to gas on the coldest days.  
+191
+@@ page 63
+2025 NEW YORK STATE ENERGY PLAN - VOLUME II  
+ 
+PATHWAYS ANALYSIS  56 
+Figure 48. 2025 vs 2040 ﬁnal energy demand by fuel 
+ 
+6.1. Annual and Peak Electricity Demands 
+Future electricity demand is projected to grow due to new large loads and electriﬁcation of 
+transportation and buildings. In all pathways scenarios, new large loads such as manufacturing and data 
+center projects interconnecting to the system drive growing electricity demand, across both annual loads 
+and peaks (Figure 49). Planning early for abundant supply for these industrial and commercial projects 
+can ensure continued opportunities for economic growth.  
+Figure 49. Annual electric loads (TWh, left) and NYCA peak loads (GW, right) for each Pathway 
+  
+Electricity demand is also projected to grow due to electriﬁcation of transportation and buildings. 
+Adoption of clean energy technologies, such as electric vehicles (EVs), building energy eﬃciency, an
+@@ page 69
+pathway for New York’s energy system, continued investment to 
+maintain and modernize existing infrastructure, replace aging equipment, and purchase fuels to meet 
+energy needs will be necessary. The analysis found that the No Action scenario requires annual system-
+wide spending (including on supply- and demand-side fuel and equipment) of approximately $150 billion 
+(in 2024$) every year through 2040. These funds support replacing end use equipment at end of useful 
+life and constructing new and replacement natural gas generators to meet electricity needs, which are 
+being transformed by new large loads and other needs. Operating fuel expenses trend downwards over 
+time because end use equipment is expected to become more eﬃcient. 
+By 2030 (Figure 53) and 2040 (Figure 54), the Additional Action scenario raises annual system-wide costs 
+by 3 percent and 13 percent, respectively, relative to the No Action scenario. Additional Action meets 
+over 85 percent of its investment needs in every year by reallocating anticipated spending from legacy 
+energy sources and equipment to energy eﬃciency and clean alternatives, replacing spending on 
+combustion generators with renewable generation, gas applia
+@@ page 72
+ is prepared to meet this growing 
+electricity demand while maintaining system reliability and making progress toward a zero-emission grid. 
+New York State likewise will support the reliable provision of natural gas and petroleum fuels, as all 
+major fuels used in the state today are forecast to provide meaningful volumes of energy throughout the 
+planning period. 
+The core planning scenario developed to inform this Plan projects a 24 percent increase in annual 
+electricity demand and a 21 percent increase in peak demand by 2040 as compared to 2025. This 
+forecast incorporates anticipated new large loads, expanded use of electric vehicles and heat pumps, 
+and energy eﬃciency upgrades that help manage load growth in buildings. There is uncertainty as to 
+whether the continuous growth in clean energy supply resources will meet growing demand given the 
+federal policy context, broader economic headwinds, and the need for new clean ﬁrm technologies to 
+become commercially available. As a result, the State and electricity system operators will continue to 
+pursue careful coordination and planning to adapt as the energy system evolves. 
+While the State Energy Plan provides statewide and regional fo
+@@ page 76
+rtation sector is developed.  
+3. Industry 
+Electricity and natural gas use in the starting year are drawn from the NYSERDA statewide Industrial 
+Potential Study performed by DNV, while demand for all other fuels is taken from the EIA SEDS.  
+The resulting set of modeled subsectors comprises agriculture; primary metals; computer and electronic 
+products; chemicals; construction; food processing; transportation equipment; fabricated metal 
+products; mining and upstream oil and gas; paper; petroleum and coal products; nonmetallic mineral 
+products; and a residual “other” category. An additional large loads category is included to capture new 
+large electricity users, with their projected demand taken directly from NYISO’s annual Gold Book. 
+4. Electricity 
+To develop a detailed understanding of future electricity demand, this analysis translates annual energy 
+forecasts into hourly load proﬁles. This process begins with annual projections for the adoption of new 
+technologies, such as EVs, heat pumps, large loads, and savings from energy eﬃciency measures. These 
+annual ﬁgures are combined with historical hourly usage patterns to create detailed hourly demand 
+proﬁles. This method captures both the increase in electricity use from new electric technologies and 
+the oﬀsetting savings from eﬃciency. For the most impactful technologies, namely EVs and electric space 
+heating, a specialized tool called RESHAPE was utilized to generate more granular hourly load proﬁles by 
+considering factors like local weather patterns, housing characteristics, and driving behavior. 
+The analysis pairs a least-cost capaci

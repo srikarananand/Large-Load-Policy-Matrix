@@ -1,0 +1,130 @@
+### https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Electricity.pdf
+meta: n_pages=91 pages_with_text=91 anchor_pages=9 pages_sent=76,53,52,47,6,59,29
+@@ page 6
+_____________ 24 
+2.8. Siting and Permitting __________________________________________________________ 31 
+2.9. Distributed Energy Resources____________________________________________________ 32 
+2.10. Transmission System Planning __________________________________________________ 37 
+2.11. Distribution System Planning ___________________________________________________ 43 
+2.12. Flexibility and Demand Response________________________________________________ 44 
+2.13. Grid of the Future (GOTF) Proceeding ____________________________________________ 46 
+2.14. Planning for and Interconnecting Large Loads ______________________________________ 46 
+2.15. Consumer Protection Measures and Consumer Complaints ___________________________ 47 
+2.16. Environmental Regulations_____________________________________________________ 48 
+2.17. New York GHG Emissions Trend _________________________________________________ 50 
+2.18. Cybersecurity _______________________________________________________________ 50 
+3. Outlook (2025–2040) _____________________________________________________________ 51 
+3.1. Modeling the Future ___________________________________________________________ 51 
+3.2. Electricity Dema
+@@ page 29
+ State has made progress on its energy efficiency targets, described in more detail in the Buildings 
+chapter of this Plan. 
+2.6.5. Affordability Considerations  
+New York State acknowledges that there is a growing energy affordability crisis—bills are increasing, and 
+many households are struggling to pay their monthly utility bills.  
+While New York’s grid continues to serve New Yorkers with reliable power, key structural trends require 
+continued attention and a strategic approach: the aging of the existing generation fleet and utility 
+infrastructure; the rapid growth of demand, including large loads and electrification targets; and 
+challenges in developing new dispatchable resources. New York has a significant amount of utility 
+infrastructure that is rapidly approaching, or at the end of, its useful life. The thousands of miles of aging 
+utility poles, substations and other equipment, plus investments to develop new and maintain existing 
+generation resources (of which our existing generation is among the oldest in the country), will require 
+spending billions of dollars to ensure system reliability and increase system resiliency. For example, 
+approximately 17% of New York State Elect
+@@ page 47
+tially improve the State’s transmission system capability, are 
+progressing through design and construction and are scheduled to enter operation between 2030 and 
+2033.  
+Figure 19: Renewable Generation Pockets and Local and Bulk System Constraints 
+Source: NYISO 2023–2042 System and Resource Outlook55 
+ 
+As noted above, the second cycle of CGPP will produce transmission investment proposals considering a 
+2035–2040 timeframe horizon. 
+2.10.8. Interconnection 
+The NYISO interconnection process ensures open access to the transmission grid for new generators, 
+transmission projects, and certain large loads seeking to connect. Most proposed new projects must 
+adhere to the NYISO interconnection process.56 The process determines, among other things, what 
+system upgrades are needed to permit new projects to connect to the transmission system and to 
+ensure deliverability of their energy output.
+@@ page 52
+w flexibility programs like EV managed 
+charging and vehicle to grid arrangements to provide capacity during peak hours. Following the Study, in 
+March 2025, DPS filed the First Iteration of the GOTF with the PSC.63 The plan will serve as an important 
+step towards building out the programs, policies, local and bulk system digital infrastructure, grid 
+infrastructure, and operating practices needed to efficiently meet the State’s clean energy and climate 
+goals. DPS is now developing the final, updated plan, which will be released in the middle of 2026. 
+2.14. Planning for and Interconnecting Large Loads 
+DPS and the NYISO conduct several near- and long-term planning processes to evaluate the system 
+impacts of forecasted future demand.  
+Over the past few years—and especially in the last 12 months—New York State has seen a surge in large 
+load interconnection requests. Most of this activity is concentrated in northern and western New York
+@@ page 53
+2025 NEW YORK STATE ENERGY PLAN - VOLUME II 
+ELECTRICITY  47 
+and driven primarily by data center development, although some reflects broader economic growth 
+initiatives. States across the country are experiencing similar surges, with hundreds of gigawatts of new 
+load expected nationwide in the next five years. However, what makes planning challenging is that these 
+forecasts can change rapidly.  
+New York State is proactively monitoring this evolving situation and leveraging its existing process—
+while identifying new tools—to manage future demand without jeopardizing grid safety or reliability, as 
+well as energy affordability impacts to other consumers. New York’s load planning proce
+@@ window
+added energy system costs are managed to be as cost-effective as possible and fairly allocated 
+to the user that necessitates potential system build-out or upgrade costs, consistent with “beneficiary 
+pays” cost-causation principles. However, the State recognizes that such loads may trigger other system 
+costs or impacts not captured by this accounting and is committed to reducing and fairly managing these 
+costs, based on analyzing these dynamics, following ongoing research, and monitoring market dynamics 
+and successful approaches in other jurisdictions. With the unprecedented number of new large load 
+proposals, New York State is continuing to evaluate the processes to date and is committed to 
+refinement to protect consumers.  
+See the Economic Development, Industry and Agriculture chapter for more information on the 
+interconnection of large loads, including data centers.  
+2.15. Consumer Protection Measures and Consumer Complaints 
+The Home Energy Fair Practices Act (HEFPA), enacted in 1981 and amended in 2002, provides residential 
+energy customers, including electric customers, with protections for applications for service, billing and 
+payments, and disconnections.64  
+If a customer fails to pay overdue bills, the utility may turn off the customer’s service after it has giv
+@@ page 59
+ddresses non-stock loads, such as those in the industrial sector. For these 
+sectors, the model utilizes activity-based projections, where energy demand is calculated based on 
+expected levels of industrial activity. This allows the model to account for energy consumption in 
+industries where equipment lifespans are variable or data on equipment stocks is limited, ensuring a 
+comprehensive representation of energy demand across all sectors.  
+New York is expected to experience a significant increase in demand over the next decade, driven by 
+both electrification and the interconnection of new large loads. These large loads include data centers, 
+semiconductor manufacturing plants, and green hydrogen production plants. The 2025 Gold Book 
+indicated that large load facilities could contribute up to 19,200 GWh of additional annual energy 
+consumption, 2,567 MW of summer peak demand, and 2,600 MW of winter peak demand in New York 
+State by 2035; the Pathways Analysis includes the impacts of these incremental large loads across all 
+modeled scenarios.77  
+Multiple studies have examined the potential impacts of warming temperatures on electricity demand, 
+including NYISO’s Climate Change Impact Study and NYSERDA’s Climate Impacts Assessment.78,79 Climate 
+change is projected to lead to increases in both the frequency and magnitude of extreme summer 
+temperatures, which will in turn drive an increase in summer peak demand. The NYSERDA Climate 
+Impacts Assessment also concluded that the resulting impacts on the New York energy system will be 
+highly dependent on the extent of New York State’s investments in buil
+@@ page 76
+2025 NEW YORK STATE ENERGY PLAN - VOLUME II 
+ELECTRICITY  70 
+facilities through the Large-Scale Renewable Energy Program and CES and VDER proceedings, 
+respectively.103 An example of a policy fit for reevaluation would be the PSC’s directive to DPS in 
+the May 2025 CES Biennial Review Order to revisit repowering requirements under CES Tier 1, 
+including the potential removal of the 15 percent increase in generation for hydroelectric 
+facilities requirement.  
+● Continue to evaluate the impact of large load customers and take necessary steps to 
+support consumers. This new era of demand growth has shed light on the challenges of 
+planning for new large loads. New York State—spanning partners across DPS, ESD, NYPA, 
+NYSERDA, among others—is identifying best practices to equitably support its economic 
+development and energy objectives. New York State is strategically positioned with a single-
+state independent system operator at the NYISO and will continue to be innovative and 
+flexible in its approaches to make changes in response to evolving conditions.   
+• The State will need to be strategic about the pace of combustion unit retirements and/or 
+replacements as it works to pursue achievement of its clean energy targets. New York’s 
+generation fleet is aging, the rate of renewable deployment is uncertain, reliability margins are 
+shrinking, and significant levels of large loads are being added. Due to these factors, the State 
+will need to be strategic about the pace of combustion unit retirements and/or replacements as 
+it works towards its clean energy goals and to meet reliability needs as quickly and cost-
+effectively as possible. Combustion generating units will remain essential parts of electric grid 
+reliability and affordability. Retirement of these units will not be able to occur until resources 
+that provide the same grid reliability attributes are put in place. 
+Additionally, there are specific considerations with respect to the small clean power plants,

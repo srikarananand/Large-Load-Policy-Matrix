@@ -1,7 +1,31 @@
 {
- "generated_at": "2026-11-23T01:22:17+00:00",
+ "generated_at": "2026-11-23T01:44:42+00:00",
  "extractor": "Claude, in-session, from hash-verified excerpts (not the Groq pipeline)",
  "documents": [
+  {
+   "id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "kind": "state_plan",
+   "published": "2025-12-16",
+   "title": "2025 New York State Energy Plan, Vol. I: Summary for Policymakers",
+   "url": "https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Summary-for-Policymakers.pdf"
+  },
+  {
+   "id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "kind": "state_plan",
+   "published": "2025-12-16",
+   "title": "2025 New York State Energy Plan, Vol. II: Electricity",
+   "url": "https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Electricity.pdf"
+  },
+  {
+   "id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "kind": "state_plan",
+   "published": "2025-12-16",
+   "title": "2025 New York State Energy Plan, Vol. II: Pathways Analysis",
+   "url": "https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Pathways-Analysis.pdf"
+  },
   {
    "id": "va-2026-energy-plan",
    "jurisdiction": "Virginia",
@@ -160,18 +184,48 @@
  "document_status": [
   {
    "id": "ny-2025-sep-summary",
-   "ok": false,
-   "error": "Browser pane refused energyplan.ny.gov during the build; not retried by other means"
+   "ok": true,
+   "pages": 146,
+   "pages_sent": [
+    40,
+    46,
+    49,
+    74,
+    82,
+    83
+   ],
+   "anchor_pages": 8
   },
   {
    "id": "ny-2025-sep-electricity",
-   "ok": false,
-   "error": "Browser pane refused energyplan.ny.gov during the build; not retried by other means"
+   "ok": true,
+   "pages": 91,
+   "pages_sent": [
+    6,
+    29,
+    47,
+    52,
+    53,
+    59,
+    76
+   ],
+   "anchor_pages": 9
   },
   {
    "id": "ny-2025-sep-pathways",
-   "ok": false,
-   "error": "Browser pane refused energyplan.ny.gov during the build; not retried by other means"
+   "ok": true,
+   "pages": 86,
+   "pages_sent": [
+    5,
+    9,
+    25,
+    30,
+    63,
+    69,
+    72,
+    76
+   ],
+   "anchor_pages": 11
   },
   {
    "id": "va-2026-energy-plan",
@@ -274,6 +328,9 @@
   }
  ],
  "excerpt_sha256": {
+  "ny-2025-sep-summary": "c76f7e41fed9a2b0ce4fb4c2c6d9c9e299e08c70ba558a0dc19be8febdbe37a7",
+  "ny-2025-sep-electricity": "d2d4a72de829d5a0e922d47deaa6cfc54f521ad59e21a6f9c038a105a1452dcf",
+  "ny-2025-sep-pathways": "5cbb925dc30a3c79352ef6ae4c8d863883bacf456842cffd2872983440db6e64",
   "va-2026-energy-plan": "cd5024ad9680eb62e1db6e613acaf42e9daec4026d491a9349c24ef72b6f2453",
   "nj-2024-emp": "6f94446f3335933a55b0f19b29eed8f854c4f7e741c57708d8808930c9ca0ce5",
   "me-2025-energy-plan": "72b3bf794bb96e8ba7fcb8abaa0750cd2b9a1a32e024731c13b9eeb81f18cc81",
@@ -284,6 +341,303 @@
   "dominion-2025-irp-update": "720b182039dd0b0b00dad54cefe1b66c882d11e80df198256c89c98572949166"
  },
  "cells": [
+  {
+   "attribute": "demand_quantified",
+   "status": "mentioned_only",
+   "page": 40,
+   "quote": "new large loads, such as manufacturing and data center projects interconnecting to the system, drive growing electricity demand across both annual loads and peaks",
+   "values": [],
+   "note": "Direction of demand only; figures are in Vol. II",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "explicit_provision",
+   "page": 82,
+   "quote": "New Y ork's interconnection process for new large loads is designed to fairly allocate energy system build-out or upgrade costs to the user that necessitates such costs, consistent with \u201cbeneficiary pays\u201d cost-causation principles.",
+   "values": [],
+   "note": "Beneficiary-pays principle; quote keeps the PDF text-layer spelling \"Y ork\"",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "Recommends new rate designs for industry generally; the excerpt has no large-load anchor term beside it",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "explicit_provision",
+   "page": 82,
+   "quote": "New Y ork's interconnection process for new large loads is designed to fairly allocate energy system build-out or upgrade costs to the user that necessitates such costs",
+   "values": [],
+   "note": "Same sentence as cost_allocation",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "mentioned_only",
+   "page": 82,
+   "quote": "Planning considerations for large data centers are complex, as uncertainty exists around their location, long-term energy consumption, and demand flexibility.",
+   "values": [],
+   "note": "Names flexibility as an uncertainty",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-summary",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "explicit_provision",
+   "page": 59,
+   "quote": "These large loads include data centers, semiconductor manufacturing plants, and green hydrogen production plants. The 2025 Gold Book indicated that large load facilities could contribute up to 19,200 GWh of additional annual energy consumption, 2,567 MW of summer peak demand, and 2,600 MW of winter peak demand in New York State by 2035",
+   "values": [
+    "19,200 GWh",
+    "2,567 MW",
+    "2,600 MW",
+    "2035"
+   ],
+   "note": "NYISO Gold Book figures",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "planned_or_recommended",
+   "page": 76,
+   "quote": "Continue to evaluate the impact of large load customers and take necessary steps to support consumers.",
+   "values": [],
+   "note": "Recommendation",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "explicit_provision",
+   "page": 47,
+   "quote": "The NYISO interconnection process ensures open access to the transmission grid for new generators, transmission projects, and certain large loads seeking to connect. Most proposed new projects must adhere to the NYISO interconnection process.",
+   "values": [],
+   "note": "Applies to certain large loads",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-electricity",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "demand_quantified",
+   "status": "explicit_provision",
+   "page": 25,
+   "quote": "Several large manufacturing and data-center projects are expected to enter service this coming decade. By 2040, new industrial projects are expected to demand approximately 16 TWh of electricity annually, equivalent to 75% of the industrial electricity demand today.",
+   "values": [
+    "16 TWh",
+    "2040",
+    "75%"
+   ],
+   "note": "Figure covers new industrial projects, including data centers",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "cost_allocation",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "dedicated_tariff",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "financial_commitment",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "interconnection_process",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "flexibility",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "self_supply",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
+  {
+   "attribute": "siting_limits",
+   "status": "not_addressed",
+   "page": null,
+   "quote": null,
+   "values": [],
+   "note": "",
+   "doc_id": "ny-2025-sep-pathways",
+   "jurisdiction": "New York",
+   "verified": true,
+   "reasons": []
+  },
   {
    "attribute": "demand_quantified",
    "status": "explicit_provision",
@@ -1198,6 +1552,50 @@
    }
   },
   {
+   "jurisdiction": "New York",
+   "specificity": 37.5,
+   "protection": 33.3,
+   "cells": {
+    "demand_quantified": {
+     "status": "explicit_provision",
+     "doc_id": "ny-2025-sep-electricity",
+     "page": 59,
+     "quote": "These large loads include data centers, semiconductor manufacturing plants, and green hydrogen production plants. The 2025 Gold Book indicated that large load facilities could contribute up to 19,200 GWh of additional annual energy consumption, 2,567 MW of summer peak demand, and 2,600 MW of winter peak demand in New York State by 2035",
+     "values": [
+      "19,200 GWh",
+      "2,567 MW",
+      "2,600 MW",
+      "2035"
+     ]
+    },
+    "cost_allocation": {
+     "status": "explicit_provision",
+     "doc_id": "ny-2025-sep-summary",
+     "page": 82,
+     "quote": "New Y ork's interconnection process for new large loads is designed to fairly allocate energy system build-out or upgrade costs to the user that necessitates such costs, consistent with \u201cbeneficiary pays\u201d cost-causation principles.",
+     "values": []
+    },
+    "dedicated_tariff": null,
+    "financial_commitment": null,
+    "interconnection_process": {
+     "status": "explicit_provision",
+     "doc_id": "ny-2025-sep-summary",
+     "page": 82,
+     "quote": "New Y ork's interconnection process for new large loads is designed to fairly allocate energy system build-out or upgrade costs to the user that necessitates such costs",
+     "values": []
+    },
+    "flexibility": {
+     "status": "mentioned_only",
+     "doc_id": "ny-2025-sep-summary",
+     "page": 82,
+     "quote": "Planning considerations for large data centers are complex, as uncertainty exists around their location, long-term energy consumption, and demand flexibility.",
+     "values": []
+    },
+    "self_supply": null,
+    "siting_limits": null
+   }
+  },
+  {
    "jurisdiction": "New Jersey",
    "specificity": 25.0,
    "protection": 16.7,
@@ -1347,23 +1745,19 @@
  ],
  "kpis": {
   "documents_total": 11,
-  "documents_read": 8,
-  "documents_failed": [
-   "ny-2025-sep-summary",
-   "ny-2025-sep-electricity",
-   "ny-2025-sep-pathways"
-  ],
-  "cells_total": 64,
-  "claimed_cells": 28,
-  "verified_cells": 28,
+  "documents_read": 11,
+  "documents_failed": [],
+  "cells_total": 88,
+  "claimed_cells": 36,
+  "verified_cells": 36,
   "verified_rate_pct": 100.0,
-  "not_addressed_cells": 36,
+  "not_addressed_cells": 52,
   "unparsed_cells": 0,
   "status_counts": {
-   "explicit_provision": 13,
-   "planned_or_recommended": 6,
-   "mentioned_only": 9,
-   "not_addressed": 36
+   "mentioned_only": 11,
+   "explicit_provision": 18,
+   "not_addressed": 52,
+   "planned_or_recommended": 7
   },
   "rejection_reasons": {}
  }

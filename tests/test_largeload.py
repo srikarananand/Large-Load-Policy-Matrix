@@ -165,11 +165,11 @@ def test_session_excerpts_pass_guard_and_hashes_recorded():
     """The published run: every claimed cell is verbatim in its hash-recorded excerpt; unreachable docs are not scored."""
     from largeload import run_excerpts
     res = run_excerpts.build()
-    assert res["kpis"]["documents_read"] == 8 and len(res["kpis"]["documents_failed"]) == 3
+    assert res["kpis"]["documents_read"] == 11 and not res["kpis"]["documents_failed"]
     claimed = [c for c in res["cells"] if c["status"] != "not_addressed"]
     assert claimed and all(c["verified"] for c in claimed)
     assert all(len(h) == 64 for h in res["excerpt_sha256"].values())
-    assert "New York" not in {j["jurisdiction"] for j in res["jurisdictions"]}
+    assert "New York" in {j["jurisdiction"] for j in res["jurisdictions"]}
 
 
 def test_guard_rejects_edited_session_quote():

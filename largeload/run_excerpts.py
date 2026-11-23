@@ -3,7 +3,7 @@
     python -m largeload.run_excerpts
 
 Extractor of record for the published run: data/extractions/claude_in_session.py (cells written by
-Claude from the excerpts). Documents without an excerpt file are reported as unreachable, not scored.
+Claude from the excerpts). Documents without an excerpt file are reported as not read, not scored.
 """
 import datetime
 import importlib.util
@@ -20,8 +20,10 @@ TAXONOMY = yaml.safe_load((ROOT / "taxonomy.yaml").read_text())
 FILES = {"nj-2024-emp": "nj", "me-2025-energy-plan": "me", "va-2026-energy-plan": "va",
          "or-2025-energy-strategy": "or", "ut-energy-innovation-plan-summary": "ut",
          "pacificorp-2025-irp-vol1": "pacificorp", "dominion-2026-irp-update": "dom2026",
-         "dominion-2025-irp-update": "dom2025"}
-UNREACHABLE = "Browser pane refused energyplan.ny.gov during the build; not retried by other means"
+         "dominion-2025-irp-update": "dom2025",
+         "ny-2025-sep-summary": "ny_summary", "ny-2025-sep-electricity": "ny_electricity",
+         "ny-2025-sep-pathways": "ny_pathways"}
+UNREACHABLE = "No excerpt file"
 
 
 def load_cells(path):

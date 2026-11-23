@@ -1,0 +1,137 @@
+### https://energyplan.ny.gov/-/media/Project/EnergyPlan/files/2025-Energy-Plan/Summary-for-Policymakers.pdf
+meta: n_pages=146 pages_with_text=146 anchor_pages=8 pages_sent=82,46,40,83,74,49
+@@ page 40
+ 
+direct fossil fuel consumption (across natural gas and petroleum fuels) decreases from 78 
+percent in 2025 to 63–69 percent in 2040.
+Figure 13: 2025 vs 2040 Final Energy Demand by Fuel
+Source: Pathways Analysis chapter
+0
+500
+1,000
+1,500
+2,000
+2,500
+3,000
+Current Policies Current Policies Additional Action
+2025 2040
+TBtu
+District Steam
+Hydrogen
+Wood and Waste
+Other Petroleum
+Sustainable Aviation Fuel
+Jet Fuel
+Renewable Distillate
+Distillate
+Gasoline
+Renewable Natural Gas
+Natural Gas
+Electricity
+3.1. Annual and Peak Electricity Demands
+Future electricity demand is projected to grow due to new large loads and electrification 
+of transportation and buildings. In all pathways scenarios, new large loads, such as 
+manufacturing and data center projects interconnecting to the system, drive growing 
+electricity demand across both annual loads and peaks (Figure 14).43 Planning early for 
+abundant supply for these large industrial and commercial projects can ensure continued 
+opportunities for economic growth.
+@@ page 46
+y for New Y ork’s energy system, continued 
+investment to maintain and modernize existing infrastructure, replace aging equipment, 
+and purchase fuels to meet energy needs will be necessary. The analysis found that the No 
+Action scenario requires annual system-wide spending (including on supply- and demand-
+side fuel and equipment) of approximately $150 billion (in 2024$) every year through 2040. 
+These funds support replacing end-use equipment at the end of useful life and constructing 
+new and replacement natural gas generators to meet electricity needs, which are being 
+transformed by new large loads and other needs. Operating fuel expenses trend downward 
+over time because end-use equipment is expected to become more efficient. 
+By 2030 (Figure 18) and 2040 (Figure 19), the Additional Action scenario raises annual 
+system-wide costs by 3 percent and 13 percent, respectively, relative to the No Action 
+scenario. Additional Action meets over 85 percent of its investment needs every year by 
+reallocating anticipated spending from legacy energy sources and equipment to energy 
+efficiency and clean alternatives and by replacing spending on combustion generators 
+with renewable generation, gas
+@@ page 49
+is 
+prepared to meet this growing electricity demand while maintaining system reliability and 
+making progress toward a zero-emission grid. New Y ork State will likewise support the 
+reliable provision of natural gas and petroleum fuels, as all major fuels used in the state today 
+are forecast to provide meaningful volumes of energy throughout the planning period. 
+The core planning scenario developed to inform this Plan projects a 24 percent increase in 
+annual electricity demand and a 21 percent increase in peak demand by 2040 as compared 
+to 2025. This forecast incorporates anticipated new large loads, expanded use of EVs and 
+heat pumps, and energy efficiency upgrades that help manage load growth in buildings. 
+There is uncertainty as to whether the continuous growth in clean energy supply resources 
+will meet growing demand given the federal policy context, broader economic headwinds, 
+and the need for new clean firm technologies to become commercially available. As a result, 
+the State and electricity system operators will continue to pursue careful coordination and 
+planning to adapt as the energy system evolves. 
+While the State Energy Plan provides statewide and regional forecasts an
+@@ page 74
+ grid modeling to understand tradeoffs of relying on different resources
+ ° Invest in innovation to enhance resource viability, and engage early with 
+technology developers, end users, and other stakeholders to increase the 
+likelihood of technology readiness by 2040. 
+ ° Conduct a regular assessment of options and remain flexible as new technology 
+options come online.
+5.1.6. MANAGE THE PACE OF COMBUSTION UNIT RETIREMENTS TO 
+MAINTAIN RELIABILITY
+New Y ork’s generation fleet is aging, the rate of renewable deployment is uncertain, reliability 
+margins are shrinking, and significant levels of large loads are being added. Due to these 
+factors, the State will need to be strategic about the pace of combustion unit retirements 
+and/or replacements as it works toward its clean energy goals and to meet reliability needs 
+as quickly and cost-effectively as possible. Combustion-generating units will remain essential 
+parts of electric grid reliability and affordability, and the retirement of these units will not 
+be able to occur until resources that provide the same grid reliability attributes are put in 
+place. New Y ork will seek to carefully manage the retirement of existing assets and evaluate 
+@@ page 82
+71
+2025 NEW YORK STATE ENERGY PLAN - VOLUME I
+SUMMARY FOR POLICYMAKERS
+disadvantaged communities, and work to promote energy efficiency and low-emission 
+technologies.
+5.4.1. MEET THE GROWING ENERGY NEEDS OF INDUSTRY AND OTHER LARGE 
+ENERGY USERS
+Energy demand from industry is expected to grow, especially from new high-tech and 
+energy-intensive industries. Continued State coordination and investments in reliable, clean, 
+and affordable power are needed. 
+Data centers are projected to be a major driver of new industrial load. Planning 
+considerations for large data centers are complex, as uncertainty exists around their location, 
+long-term energy consumption, and demand flexibility. In general, expanding the electric 
+customer base should bring in new utility revenue and spread system costs over a larger rate 
+base. But the size of new large industrial users has raised concerns of ratepayers subsidizing 
+these industries. New Y ork’s interconnection process for new large loads is designed to fairly 
+allocate energy system build-out or upgrade costs to the user that necessitates such costs, 
+consistent with “beneficiary pays” cost-causation principles.56 The State will continue to work 
+to align electricity market structures with the emerging dynamics of large loads and broader 
+policy goals.
+Recommendations
+• Continue to advance interagency coordination and planning on generation and 
+transmission infrastructure investments.
+• Continue to pursue new rate designs and demand-side programs that provide 
+competitive utility rates, reduce the cost of industrial electrification, and incentivize 
+reduced or flexible usage of energy. Consider rate designs that differentiate charges 
+based on peak and off-peak usage; incentivize flexible usage, including on-site 
+energy generation; and value the storage and/or recycling of thermal energy. 
+• Leverage opportunities to stimulate the development of clean, firm energy supply by 
+developing partnerships with energy intensive ind
+@@ page 83
+72
+2025 NEW YORK STATE ENERGY PLAN - VOLUME I
+SUMMARY FOR POLICYMAKERS
+5.4.2. ATTRACT LARGE EMPLOYERS IN STRATEGIC INDUSTRIES TO NEW 
+YORK STATE, INCLUDING ADVANCED MANUFACTURING AND CLEAN ENERGY 
+TECHNOLOGY SUPPL Y CHAINS
+New Y ork’s energy system is critical for attracting strategic industries and driving the State’s 
+competitiveness. Localizing clean energy supply chains and providing power-ready sites can 
+help the State capitalize on these high-value opportunities.
+Recommendations
+• Continue and enhance interagency coordination to meet the energy needs of new, 
+large customers, thereby supporting New Y ork’s competitiveness.
+• Continue supporting investments into power-ready sites for new large-scale 
+manufacturing, with emphasis on strategic industries like semiconductors, 
+agribusiness, transportation equipment, and other advanced manufacturing and 
+materials processing—including related to clean energy technologies. When possible, 
+prioritize brownfield redevelopment to leverage existing, underutilized sites.
+• Identify opportunities and strategies to grow in-state clean energy supply chains, 
+including through the development of marketing campaigns and other t

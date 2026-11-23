@@ -109,3 +109,35 @@ CELLS = {
         c("siting_limits", N),
     ],
 }
+
+CELLS["ny-2025-sep-summary"] = [
+    c("demand_quantified", M, 40, "new large loads, such as manufacturing and data center projects interconnecting to the system, drive growing electricity demand across both annual loads and peaks",
+      [], "Direction of demand only; figures are in Vol. II"),
+    c("cost_allocation", E, 82, "New Y ork's interconnection process for new large loads is designed to fairly allocate energy system build-out or upgrade costs to the user that necessitates such costs, consistent with \u201cbeneficiary pays\u201d cost-causation principles.",
+      [], "Beneficiary-pays principle; quote keeps the PDF text-layer spelling \"Y ork\""),
+    c("dedicated_tariff", N, note="Recommends new rate designs for industry generally; the excerpt has no large-load anchor term beside it"),
+    c("financial_commitment", N),
+    c("interconnection_process", E, 82, "New Y ork's interconnection process for new large loads is designed to fairly allocate energy system build-out or upgrade costs to the user that necessitates such costs",
+      [], "Same sentence as cost_allocation"),
+    c("flexibility", M, 82, "Planning considerations for large data centers are complex, as uncertainty exists around their location, long-term energy consumption, and demand flexibility.",
+      [], "Names flexibility as an uncertainty"),
+    c("self_supply", N),
+    c("siting_limits", N),
+]
+CELLS["ny-2025-sep-electricity"] = [
+    c("demand_quantified", E, 59, "These large loads include data centers, semiconductor manufacturing plants, and green hydrogen production plants. The 2025 Gold Book indicated that large load facilities could contribute up to 19,200 GWh of additional annual energy consumption, 2,567 MW of summer peak demand, and 2,600 MW of winter peak demand in New York State by 2035",
+      ["19,200 GWh", "2,567 MW", "2,600 MW", "2035"], "NYISO Gold Book figures"),
+    c("cost_allocation", P, 76, "Continue to evaluate the impact of large load customers and take necessary steps to support consumers.",
+      [], "Recommendation"),
+    c("dedicated_tariff", N),
+    c("financial_commitment", N),
+    c("interconnection_process", E, 47, "The NYISO interconnection process ensures open access to the transmission grid for new generators, transmission projects, and certain large loads seeking to connect. Most proposed new projects must adhere to the NYISO interconnection process.",
+      [], "Applies to certain large loads"),
+    c("flexibility", N),
+    c("self_supply", N),
+    c("siting_limits", N),
+]
+CELLS["ny-2025-sep-pathways"] = [
+    c("demand_quantified", E, 25, "Several large manufacturing and data-center projects are expected to enter service this coming decade. By 2040, new industrial projects are expected to demand approximately 16 TWh of electricity annually, equivalent to 75% of the industrial electricity demand today.",
+      ["16 TWh", "2040", "75%"], "Figure covers new industrial projects, including data centers"),
+] + [c(a, N) for a in ATTRS[1:]]

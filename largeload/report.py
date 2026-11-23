@@ -90,7 +90,7 @@ thead th{{background:#f0f4f8;font-size:12.5px}} .exh{{font-weight:600;margin:18p
 <div class="scr"><h2 style="border:0;padding:0;margin-top:8px">Executive summary</h2>
 <p><b>Situation.</b> Data centers are the main driver of new US electricity demand, and regulators are deciding who pays for the grid they need. State plans and utility resource plans are where that stance is written down, but they are long and inconsistent, so they are hard to compare.</p>
 <p><b>Complication.</b> Reading them by hand does not scale, and a language model summary is not trustworthy unless every claim can be traced to the page it came from.</p>
-<p><b>Resolution.</b> This study codes {n_read} of {n_all} documents against 8 attributes. Every claim carries a quote that an automated guard confirmed appears word for word on the cited page. The result: only {esc(top_names)} score 100 on ratepayer protection, meaning each has a dedicated rate class, a financial commitment and a cost-allocation principle on the page. New Jersey scores {next(j['protection'] for j in J if j['jurisdiction']=='New Jersey'):.0f}, and Maine, Oregon and Utah score 0 on the pages retrieved.</p></div>
+<p><b>Resolution.</b> This study codes {n_read} of {n_all} documents against 8 attributes. Every claim carries a quote that an automated guard confirmed appears word for word on the cited page. The result: only {esc(top_names)} score 100 on ratepayer protection, meaning each has a dedicated rate class, a financial commitment and a cost-allocation principle on the page. New York and New Jersey score {next(j['protection'] for j in J if j['jurisdiction']=='New York'):.0f} each, resting on a cost-allocation principle alone, and Maine, Oregon and Utah score 0 on the pages retrieved.</p></div>
 
 <div class="kpis">
 <div class="kpi"><b>{n_read} of {n_all}</b>documents read</div>
@@ -115,7 +115,7 @@ thead th{{background:#f0f4f8;font-size:12.5px}} .exh{{font-weight:600;margin:18p
 <p class="exh">Exhibit 3: Documents, pages and claims</p>
 <div class="scroll"><table><thead><tr><th>Document</th><th>Pages</th><th>Pages mentioning large loads</th><th>Pages excerpted</th><th>Claims</th></tr></thead><tbody>{''.join(cov)}</tbody></table></div>
 <p class="src">Source: pipeline run log. &ldquo;Not found&rdquo; means not found in the excerpted pages, which is weaker than not present in the document.</p>
-<div class="sowhat"><b>So what.</b> The New York plan, the one most often cited alongside Virginia, is not in this matrix because its host refused the browser used to fetch it. Do not read its absence as a finding.</div>
+<div class="sowhat"><b>So what.</b> New York's plan sets a &ldquo;beneficiary pays&rdquo; principle and quantifies large-load demand, but the excerpts show no dedicated rate class or financial commitment. Treat that as &ldquo;not found in the excerpted pages&rdquo;, not as proof that neither exists.</div>
 
 <h2>4. How far to trust the guard</h2>
 <p class="exh">Exhibit 4: Guard fault-injection results (synthetic documents)</p>
@@ -135,7 +135,8 @@ thead th{{background:#f0f4f8;font-size:12.5px}} .exh{{font-weight:600;margin:18p
 <ul>
 <li><b>Coder.</b> The status labels and quotes were written by Claude reading the excerpts in one session. The repository also ships a Groq-based extractor (<code>largeload/extract.py</code>) for a fully automated run; it was not run for this report.</li>
 <li><b>Excerpts, not full pages.</b> The guard checks quotes against text windows around large-load terms, not whole pages. The retrieval in the browser step is close to, but not identical with, the Python retrieval in the repo.</li>
-<li><b>Coverage.</b> Three New York PDFs were unreachable. Maine and Utah returned almost no large-load text, so their zeros mean &ldquo;nothing retrieved&rdquo;. One PacifiCorp excerpt was cut off before the relevant sentence, so that cell is left empty.</li>
+<li><b>Provenance.</b> The three New York volumes were supplied as PDF files and excerpted with the repo's Python retrieval; the other eight were excerpted in a browser with pdf.js and hash-checked after transcription. Text layers differ (the New York PDF spells &ldquo;New York&rdquo; as &ldquo;New Y ork&rdquo;, and one quote keeps that spelling so it matches the page).</li>
+<li><b>Coverage.</b> Maine and Utah returned almost no large-load text, so their zeros mean &ldquo;nothing retrieved&rdquo;. One PacifiCorp excerpt was cut off before the relevant sentence, so that cell is left empty.</li>
 <li><b>Meaning.</b> The matrix records what a document says, not what is law or tariff in force. Utility plans and state plans are different kinds of document and are shown as separate rows.</li>
 <li><b>Sample.</b> {n_read} documents is a demonstration, not a survey of US policy.</li>
 </ul>
@@ -143,8 +144,7 @@ thead th{{background:#f0f4f8;font-size:12.5px}} .exh{{font-weight:600;margin:18p
 <h2>6. Recommendations and next steps</h2>
 <table><thead><tr><th>Action</th><th>Owner</th><th>When</th></tr></thead><tbody>
 <tr><td>Run the Groq extractor on the same excerpts and compare its labels with these; report agreement</td><td>Analyst</td><td>Next session</td></tr>
-<tr><td>Have a second reader mark the 24 sampled cells in <code>eval/review_sheet.csv</code> to measure label accuracy</td><td>Analyst + reviewer</td><td>Within a week</td></tr>
-<tr><td>Add the three New York documents once they can be fetched, and rerun</td><td>Analyst</td><td>Next session</td></tr>
+<tr><td>Have a second reader mark the sampled cells in <code>eval/review_sheet.csv</code> to measure label accuracy</td><td>Analyst + reviewer</td><td>Within a week</td></tr>
 <tr><td>Add retrieved-page counts so &ldquo;Not found&rdquo; can be split into &ldquo;not present&rdquo; and &ldquo;not retrieved&rdquo;</td><td>Analyst</td><td>Next release</td></tr>
 </tbody></table>
 </body></html>"""

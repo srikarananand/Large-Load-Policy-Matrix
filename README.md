@@ -6,15 +6,15 @@ How do public energy plans treat data centers and other large new loads? This pr
 
 ## What the published run found
 
-- 8 of 11 documents were read. The three New York plan PDFs could not be fetched, so New York is not scored.
-- 28 claims were made; all 28 quotes were found verbatim in their cited excerpts.
-- Only Virginia (state plan) and Dominion Energy Virginia (utility plan) state a dedicated large-load rate class, a financial commitment and a cost-allocation principle. Other documents stop at principle or mention.
+- All 11 documents were read (8 excerpted in a browser, the 3 New York volumes from supplied PDFs).
+- 36 claims were made; all 36 quotes were found verbatim in their cited excerpts. The guard initially rejected 2 New York quotes because the PDF text layer spells "New York" as "New Y ork"; the quotes now keep that spelling.
+- Only Virginia (state plan) and Dominion Energy Virginia (utility plan) state a dedicated large-load rate class, a financial commitment and a cost-allocation principle. New York states a beneficiary-pays principle and quantifies large-load demand; other documents stop at principle or mention.
 
 ## What this does not show
 
 - **Who coded the cells.** The published labels and quotes were written by Claude from the excerpts in a single session (`data/extractions/claude_in_session.py`). The fully automated extractor (`largeload/extract.py`, Groq) is included but was not run for this report.
-- **Label accuracy is unmeasured.** The guard proves a quote exists on the page. It cannot tell whether the status label (provision, planned, mentioned) is the right reading; fault injection caught 0% of overstated statuses. `eval/review_sheet.csv` holds 24 cells for a second reader to mark; `python -m largeload.review score eval/review_sheet.csv` computes precision.
-- **Excerpts, not full pages.** The guard checks quotes against text windows around large-load terms. The excerpt files in `data/excerpts/` were extracted in a browser with pdf.js and transcribed into the repo; each matches a SHA-256 computed in the browser (`excerpt_sha256` in `outputs/results.json`).
+- **Label accuracy is unmeasured.** The guard proves a quote exists on the page. It cannot tell whether the status label (provision, planned, mentioned) is the right reading; fault injection caught 0% of overstated statuses. `eval/review_sheet.csv` holds a stratified sample of cells for a second reader to mark; `python -m largeload.review score eval/review_sheet.csv` computes precision.
+- **Excerpts, not full pages.** The guard checks quotes against text windows around large-load terms. The 8 browser-extracted excerpt files in `data/excerpts/` were transcribed into the repo and each matches a SHA-256 computed in the browser; the 3 `ny_*` files were produced in the sandbox from the supplied PDFs (`excerpt_sha256` in `outputs/results.json`).
 - **"Not found" is not "not present."** Maine and Utah returned almost no large-load text.
 - The matrix records what documents say, not what is law or tariff in force.
 
